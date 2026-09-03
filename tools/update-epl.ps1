@@ -217,7 +217,9 @@ try {
   Move-Item -Force $tmp $outFile
 
   # ---------- 儲存快取、整理記錄 ----------
-  [IO.File]::WriteAllText($cacheFile, ($cache | ConvertTo-Json -Depth 8 -Compress), $utf8NoBom)
+  $sortedCache = [ordered]@{}                       # 固定鍵值順序，避免每次執行產生不同內容
+  foreach ($k in ($cache.Keys | Sort-Object { [int]$_ })) { $sortedCache[$k] = $cache[$k] }
+  [IO.File]::WriteAllText($cacheFile, ($sortedCache | ConvertTo-Json -Depth 8 -Compress), $utf8NoBom)
   Log "已寫入 $outFile（賽果 $($results.Count)、賽程 $($fixtures.Count)、助攻 $($assists.Count)）"
   if (Test-Path $logFile) {
     $lines = Get-Content $logFile -Encoding UTF8
