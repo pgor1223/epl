@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>積分榜 — 英超戰報</title>
+  <meta name="description" content="英超 2026/27 賽季積分榜：勝、和、負、入球、失球、球差、積分與近況，由賽果自動計算。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237a1fff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300ff87' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%2300ff87'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="table">
+
+  <header class="topbar" id="topbar"></header>
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1>積分榜<span class="en">Table</span></h1>
+      <p>根據已完成賽事自動計算，同分時以得失球差、入球數排序</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="table-card">
+        <div class="table-wrap">
+          <table class="standings">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th class="left">球隊</th>
+                <th title="已賽">賽</th>
+                <th title="勝">勝</th>
+                <th title="和">和</th>
+                <th title="負">負</th>
+                <th class="opt" title="入球">入球</th>
+                <th class="opt" title="失球">失球</th>
+                <th title="得失球差">球差</th>
+                <th title="積分">積分</th>
+                <th class="opt">近況</th>
+              </tr>
+            </thead>
+            <tbody id="standingsBody"></tbody>
+          </table>
+        </div>
+        <div class="legend">
+          <span><i style="background:var(--mint)"></i>歐聯資格（示意）</span>
+          <span><i style="background:var(--sky)"></i>歐霸資格（示意）</span>
+          <span><i style="background:var(--loss)"></i>降班區</span>
+          <span><i style="background:var(--win)"></i>勝 <i style="background:var(--draw);margin-left:8px"></i>和 <i style="background:var(--loss);margin-left:8px"></i>負</span>
+        </div>
+      </div>
+      <p class="tz-note">＊歐洲賽資格分界僅作示意，本季實際名額以英超及歐洲足協公布為準。</p>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/live.js"></script>
+  <script>
+    var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
+    var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+    var VIDEOS = window.VIDEOS || [];
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>

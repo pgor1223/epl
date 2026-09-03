@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片 — 英超戰報</title>
+  <meta name="description" content="英超影片：廣東話足球評論頻道的最新賽後評論、轉會分析與直播重溫。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237a1fff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300ff87' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%2300ff87'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="videos">
+
+  <header class="topbar" id="topbar"></header>
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1>精選影片<span class="en">Videos</span></h1>
+      <p>廣東話足球評論頻道的最新影片，每小時自動更新。點擊縮圖即可在此頁播放。</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="video-grid" id="videoGrid"></div>
+      <p class="tz-note">＊影片由 YouTube 提供，本站只作嵌入播放。英超完整賽事精華受轉播權限制，此處為評論及分析影片。</p>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/live.js"></script>
+  <script>
+    var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
+    var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+    var VIDEOS = window.VIDEOS || [];
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>

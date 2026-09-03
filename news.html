@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新聞 — 英超戰報</title>
+  <meta name="description" content="英超新聞：賽事報道、轉會動態、聯賽專題，全部繁體中文。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237a1fff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300ff87' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%2300ff87'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="news">
+
+  <header class="topbar" id="topbar"></header>
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1>最新消息<span class="en">News</span></h1>
+      <p>賽事報道、轉會動態與聯賽專題，點擊卡片閱讀全文</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="filter-bar" id="newsFilter">
+        <button type="button" data-cat="" class="on">全部</button>
+        <button type="button" data-cat="match">賽事</button>
+        <button type="button" data-cat="transfer">轉會</button>
+        <button type="button" data-cat="feature">專題</button>
+        <button type="button" data-cat="league">聯賽</button>
+      </div>
+      <div class="news-grid" id="newsGrid"></div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/live.js"></script>
+  <script>
+    var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
+    var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+    var VIDEOS = window.VIDEOS || [];
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>

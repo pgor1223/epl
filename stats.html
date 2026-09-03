@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>球員數據 — 英超戰報</title>
+  <meta name="description" content="英超 2026/27 球員數據：射手榜、助攻榜及賽季統計。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237a1fff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300ff87' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%2300ff87'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="stats">
+
+  <header class="topbar" id="topbar"></header>
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1>球員數據<span class="en">Stats</span></h1>
+      <p>射手榜由賽果自動統計（不含烏龍球），助攻榜取自英超官方數據</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="stats-grid">
+        <div class="card">
+          <div class="card-head"><h3>射手榜</h3><span class="en">Top scorers</span></div>
+          <div id="scorers"></div>
+        </div>
+        <div class="card assists">
+          <div class="card-head"><h3>助攻榜</h3><span class="en">Assists</span></div>
+          <div id="assists"></div>
+        </div>
+      </div>
+      <div class="facts" id="facts"></div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/live.js"></script>
+  <script>
+    var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
+    var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+    var VIDEOS = window.VIDEOS || [];
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
