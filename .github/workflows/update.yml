@@ -29,9 +29,10 @@ jobs:
           git config user.name "epl-update-bot"
           git config user.email "actions@users.noreply.github.com"
           # 只計算「產生時間戳記」以外的變動，避免賽果沒變也每小時 commit
-          real_changes=$(git diff -U0 -- js/live.js \
+          # grep 在沒有結果時回傳 1，配合 pipefail 會令步驟失敗，故加上 || true
+          real_changes=$( (git diff -U0 -- js/live.js \
             | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' \
-            | grep -vE '^[+-](/\* 自動產生|var LIVE = )' | wc -l)
+            | grep -vE '^[+-](/\* 自動產生|var LIVE = )' || true) | wc -l)
           if [ "$real_changes" -eq 0 ]; then
             echo "No result changes (timestamp only). Skipping commit."
             git checkout -- js/live.js tools/results-cache.json
