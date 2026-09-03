@@ -2,6 +2,8 @@
 
 純靜態網站（HTML + CSS + JavaScript），直接開啟 `index.html` 即可瀏覽。賽果、賽程與助攻榜由排程腳本每小時自動更新。
 
+**公開網址：** https://pgor1223.github.io/epl/ （GitHub Pages，版本庫 https://github.com/pgor1223/epl ）
+
 ## 內容
 - **最新消息**：頭條 + 新聞卡片，點擊可閱讀全文
 - **積分榜**：由賽果自動計算（勝／和／負／入球／失球／球差／積分／近況）
@@ -48,3 +50,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\update-epl.ps1"
 - 字型（Noto Sans TC、Barlow Condensed）由 Google Fonts 載入，離線時會退回系統字型。
 - 球員姓名保留原文。
 - 「焦點戰」由腳本判定：六強互戰或打吡會標記為 featured。
+
+## 公開網站（GitHub Pages）
+- 版本庫 `main` 分支的根目錄即為網站，推送後約一分鐘自動更新。
+- `.github/workflows/update.yml` 每小時在 GitHub 的伺服器執行 `tools/update-epl.ps1`，賽果有變動時自動 commit `js/live.js`，毋須依賴本機電腦。
+- 亦可在 GitHub 的 **Actions → Update results → Run workflow** 手動觸發。
+- 更新新聞：修改 `js/data.js` 後執行 `git add -A && git commit -m "news" && git push`。
