@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英超戰報 — 英格蘭超級聯賽 2026/27 新聞、積分榜、賽果</title>
+  <meta name="description" content="英超戰報：英格蘭超級聯賽最新新聞、積分榜、賽果與賽程，全部以繁體中文及香港時間顯示。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237a1fff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300ff87' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%2300ff87'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 頂部導覽 ===== -->
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v4l3.5 2.5-1.3 4.2H9.8L8.5 9.5 12 7M3.5 10l4 -.5M20.5 10l-4-.5M6 19l3-3M18 19l-3-3"/></svg>
+        </span>
+        <span>
+          <span class="brand-name">英超戰報</span>
+          <span class="brand-sub">Premier League <span id="seasonLabel">2026/27</span></span>
+        </span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#news">新聞</a>
+        <a href="#table">積分榜</a>
+        <a href="#results">賽果</a>
+        <a href="#results" id="fixturesLink">賽程</a>
+        <a href="#stats">數據</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="live-pill"><i></i><span id="roundLabel">第2輪完結</span></span>
+        <div class="seg" role="group" aria-label="球隊譯名">
+          <span class="seg-label">譯名</span>
+          <button type="button" data-lang="hk" class="on">港</button>
+          <button type="button" data-lang="tw">台</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="開啟選單"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 首頁頭條 ===== -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <article class="feature" id="feature"></article>
+      <aside class="side">
+        <div class="card next-match">
+          <div class="card-head"><h3>焦點戰</h3><span class="en">Next up</span></div>
+          <div id="nextMatch"></div>
+        </div>
+        <div class="card">
+          <div class="card-head"><h3>積分榜前五</h3><span class="en">Top 5</span></div>
+          <table class="mini-table"><tbody id="miniTable"></tbody></table>
+          <a class="mini-link" href="#table">查看完整積分榜 →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="ticker" aria-label="最新賽果">
+    <div class="ticker-inner">
+      <div class="ticker-label">最新賽果</div>
+      <div class="ticker-viewport"><div class="ticker-track" id="ticker"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== 新聞 ===== -->
+  <section class="block" id="news">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>最新消息<span class="en">News</span></h2>
+          <p class="desc">賽事報道、轉會動態與聯賽專題</p>
+        </div>
+      </div>
+      <div class="news-grid" id="newsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== 積分榜 ===== -->
+  <section class="block" id="table">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>積分榜<span class="en">Table</span></h2>
+          <p class="desc">根據已完成賽事自動計算 · 資料更新至 <span id="updatedAt" class="num">2026-09-03</span></p>
+        </div>
+      </div>
+      <div class="table-card reveal">
+        <div class="table-wrap">
+          <table class="standings">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th class="left">球隊</th>
+                <th title="已賽">賽</th>
+                <th title="勝">勝</th>
+                <th title="和">和</th>
+                <th title="負">負</th>
+                <th class="opt" title="入球">入球</th>
+                <th class="opt" title="失球">失球</th>
+                <th title="得失球差">球差</th>
+                <th title="積分">積分</th>
+                <th class="opt">近況</th>
+              </tr>
+            </thead>
+            <tbody id="standingsBody"></tbody>
+          </table>
+        </div>
+        <div class="legend">
+          <span><i style="background:var(--mint)"></i>歐聯資格（示意）</span>
+          <span><i style="background:var(--sky)"></i>歐霸資格（示意）</span>
+          <span><i style="background:var(--loss)"></i>降班區</span>
+          <span><i style="background:var(--win)"></i>勝 <i style="background:var(--draw);margin-left:8px"></i>和 <i style="background:var(--loss);margin-left:8px"></i>負</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 賽果與賽程 ===== -->
+  <section class="block" id="results">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2><span id="resultsTitle">賽果</span><span class="en">Results &amp; Fixtures</span></h2>
+          <p class="desc">所有時間均為香港時間（UTC+8）</p>
+        </div>
+        <div class="controls">
+          <div class="tabs"><span class="seg-label">賽果</span><span id="resultTabs" style="display:contents"></span></div>
+          <div class="tabs"><span class="seg-label">賽程</span><span id="fixtureTabs" style="display:contents"></span></div>
+          <select id="gwSelect" class="gw-select" aria-label="選擇輪次"></select>
+        </div>
+      </div>
+      <div class="matchday" id="matchdays"></div>
+      <p class="tz-note">＊英國夏令時間（BST）較香港時間慢 7 小時；國際賽期後（10 月 25 日起）英國改用冬令時間，時差為 8 小時。</p>
+    </div>
+  </section>
+
+  <!-- ===== 數據 ===== -->
+  <section class="block" id="stats">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>球員數據<span class="en">Stats</span></h2>
+          <p class="desc">射手榜由賽果自動統計（不含烏龍球）</p>
+        </div>
+      </div>
+      <div class="stats-grid">
+        <div class="card reveal">
+          <div class="card-head"><h3>射手榜</h3><span class="en">Top scorers</span></div>
+          <div id="scorers"></div>
+        </div>
+        <div class="card reveal assists">
+          <div class="card-head"><h3>助攻榜</h3><span class="en">Assists</span></div>
+          <div id="assists"></div>
+        </div>
+      </div>
+      <div class="facts" id="facts"></div>
+    </div>
+  </section>
+
+  <!-- ===== 頁尾 ===== -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <span class="brand-name">英超戰報</span>
+        <p>英格蘭超級聯賽 2026/27 · 繁體中文球迷資訊站</p>
+        <p>© <span id="year">2026</span> 英超戰報。本站為球迷資訊網站，與英超聯賽及各球會並無關聯。</p>
+      </div>
+      <div>
+        <p>賽果、賽程及數據來源：英超官方公開數據</p>
+        <p>新聞內容由本站根據公開報道整理撰寫</p>
+        <p>球員姓名保留原文，球隊及球場譯名可切換港／台版本</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== 新聞全文視窗 ===== -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" type="button" aria-label="關閉">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script src="js/data.js"></script>
+  <!-- live.js 由 tools/update-epl.ps1 自動產生（賽果、賽程、助攻榜） -->
+  <script src="js/live.js"></script>
+  <script>
+    /* 若 live.js 尚未產生，仍讓頁面正常顯示 */
+    var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
+    var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
