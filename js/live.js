@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-04 00:38 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-04 00:38", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-04 00:50 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-04 00:50", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -383,6 +383,20 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "LIV", away: "BOU", venue: "Anfield" },
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "MUN", away: "FUL", venue: "Old Trafford" },
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
+];
+var VIDEOS = [
+  { id: "Gky5HbpxWMs", title: "Deadline Day drama, Enzo to Man City and Arsenal miss out on new attacker 🗣️ | Transfer Talk Podcast", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-03T16:15:03Z" },
+  { id: "ND3xladXL4k", title: "Who Should You Captain? PREMIUM Picks & Big Decisions | FPL Podcast 2026/27", channel: "Premier League", label: "官方", published: "2026-09-03T15:01:38Z" },
+  { id: "wyDZB-L12xI", title: "Bryan Mbeumo reveals what it's like inside the Man Utd changing room right now & more! 🔴", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-03T15:00:02Z" },
+  { id: "iGpLlHlLnpo", title: "Mainoo in COMPLETE CONTROL 😤", channel: "Premier League", label: "官方", published: "2026-09-03T13:14:33Z" },
+  { id: "fpJ8d-LJIW8", title: "LIGHTNING-FAST Chelsea Counter-Attack ⚡️", channel: "Premier League", label: "官方", published: "2026-09-03T10:24:37Z" },
+  { id: "NhEO0zOElro", title: "One-Man Charges That Were Impossible to Stop", channel: "Premier League", label: "官方", published: "2026-09-03T10:01:27Z" },
+  { id: "svZ6tcL9Fa0", title: "When De Zerbi tipped Mudryk as a future Ballon d’Or winner 👀🏆", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-02T18:50:49Z" },
+  { id: "L1L4kbj0dMM", title: "Why Cherki Is Unstoppable Under Maresca", channel: "Premier League", label: "官方", published: "2026-09-02T16:31:09Z" },
+  { id: "GHa3Pb9SUV8", title: "Trying To Keep Up With Marcus Rashford Is TIRING! 🥵", channel: "Premier League", label: "官方", published: "2026-09-02T16:09:02Z" },
+  { id: "4mAt6nKRdCk", title: "Michael Carrick answers 15 questions you've ALWAYS wanted to ask a Premier League manager! Unpacked", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-02T15:00:30Z" },
+  { id: "n7jbGP5HKeQ", title: "Who remembers this beautiful chip by Alexis Sanchez when Arsenal hosted Chelsea in 2016 😮‍💨 #arsenal", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-02T12:16:16Z" },
+  { id: "apyXK5Zcd2c", title: "Alan Pardew thinks that Manchester City's revamped midfield could be 'magnificent' 🔝👀  #football", channel: "Sky Sports Premier League", label: "新聞", published: "2026-09-01T23:06:37Z" },
 ];
 var ASSISTS = [
   { n: "Riccardo Calafiori", t: "ARS", v: 2 },

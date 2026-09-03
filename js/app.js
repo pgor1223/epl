@@ -344,6 +344,55 @@
       (hatTricks ? '' : '');
   }
 
+  /* ---------- YouTube 影片 ---------- */
+  function relTime(iso) {
+    var diff = Date.now() - new Date(iso).getTime();
+    if (diff < 0) diff = 0;
+    var d = Math.floor(diff / 86400000);
+    if (d >= 1) return d + '日前';
+    var h = Math.floor(diff / 3600000);
+    if (h >= 1) return h + '小時前';
+    return Math.max(1, Math.floor(diff / 60000)) + '分鐘前';
+  }
+  function renderVideos() {
+    var box = $('#videoGrid');
+    if (!box) return;
+    if (!VIDEOS.length) {
+      box.innerHTML = '<p class="empty-note">暫時未有影片，下次自動更新時會補上。</p>';
+      return;
+    }
+    box.innerHTML = VIDEOS.map(function (v, i) {
+      return '<article class="video-card reveal" data-i="' + i + '" tabindex="0" role="button" aria-label="播放：' + esc(v.title) + '">' +
+        '<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + encodeURIComponent(v.id) + '/hqdefault.jpg">' +
+        '<span class="play"></span>' + (v.label ? '<span class="vlabel">' + esc(v.label) + '</span>' : '') + '</div>' +
+        '<div class="vbody"><h3>' + esc(v.title) + '</h3>' +
+        '<div class="vmeta"><span>' + esc(v.channel) + '</span><span>' + relTime(v.published) + '</span></div></div></article>';
+    }).join('');
+    $$('#videoGrid .video-card').forEach(function (c) {
+      c.onclick = function () { openVideo(+c.dataset.i); };
+      c.onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openVideo(+c.dataset.i); } };
+    });
+    observeReveal();
+  }
+  function openVideo(i) {
+    var v = VIDEOS[i];
+    if (!v) return;
+    /* 只在點擊後才載入 iframe：頁面較快，亦避免未睇片就被追蹤 */
+    $('#videoFrame').innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v.id) +
+      '?autoplay=1&rel=0" title="' + esc(v.title) + '" frameborder="0" ' +
+      'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    $('#videoTitle').textContent = v.title;
+    $('#videoChannel').textContent = v.channel + ' · ' + relTime(v.published);
+    $('#videoLink').href = 'https://www.youtube.com/watch?v=' + encodeURIComponent(v.id);
+    $('#videoModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeVideo() {
+    $('#videoFrame').innerHTML = '';   /* 清空 iframe 以停止播放 */
+    $('#videoModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
   /* ---------- 其他 UI ---------- */
   var io = null;
   function observeReveal() {
@@ -386,6 +435,7 @@
     renderTable(table);
     renderResults();
     renderStats();
+    renderVideos();
     $$('[data-lang]').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === lang); });
   }
 
@@ -415,7 +465,9 @@
 
     $('#modalClose').onclick = closeNews;
     $('#modal').onclick = function (e) { if (e.target === this) closeNews(); };
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeNews(); });
+    $('#videoClose').onclick = closeVideo;
+    $('#videoModal').onclick = function (e) { if (e.target === this) closeVideo(); };
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeNews(); closeVideo(); } });
 
     $('#burger').onclick = function () { $('#nav').classList.toggle('open'); };
     $$('.nav a').forEach(function (a) { a.addEventListener('click', function () { $('#nav').classList.remove('open'); }); });

@@ -30,6 +30,7 @@
         <a href="#table">積分榜</a>
         <a href="#results">賽果</a>
         <a href="#results" id="fixturesLink">賽程</a>
+        <a href="#videos">影片</a>
         <a href="#stats">數據</a>
       </nav>
       <div class="topbar-right">
@@ -141,6 +142,19 @@
     </div>
   </section>
 
+  <!-- ===== 影片 ===== -->
+  <section class="block" id="videos">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>精選影片<span class="en">Videos</span></h2>
+          <p class="desc">來自 YouTube 官方及新聞頻道，每小時自動更新</p>
+        </div>
+      </div>
+      <div class="video-grid" id="videoGrid"></div>
+    </div>
+  </section>
+
   <!-- ===== 數據 ===== -->
   <section class="block" id="stats">
     <div class="wrap">
@@ -187,6 +201,21 @@
       <div id="modalBody"></div>
     </div>
   </div>
+  <!-- ===== YouTube 播放視窗 ===== -->
+  <div class="modal video-modal" id="videoModal" role="dialog" aria-modal="true">
+    <div class="video-box">
+      <button class="modal-close" id="videoClose" type="button" aria-label="關閉">×</button>
+      <div class="video-frame" id="videoFrame"></div>
+      <div class="video-info">
+        <h3 id="videoTitle"></h3>
+        <div class="video-sub">
+          <span id="videoChannel"></span>
+          <a id="videoLink" href="#" target="_blank" rel="noopener noreferrer">在 YouTube 開啟 ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="toast" id="toast"></div>
 
   <script src="js/data.js"></script>
@@ -196,6 +225,7 @@
     /* 若 live.js 尚未產生，仍讓頁面正常顯示 */
     var RESULTS = window.RESULTS || []; var FIXTURES = window.FIXTURES || [];
     var ASSISTS = window.ASSISTS || []; var LIVE = window.LIVE || null;
+    var VIDEOS = window.VIDEOS || [];
   </script>
   <script src="js/app.js"></script>
 </body>

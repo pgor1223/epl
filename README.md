@@ -9,6 +9,7 @@
 - **積分榜**：由賽果自動計算（勝／和／負／入球／失球／球差／積分／近況）
 - **賽果與賽程**：按輪次分頁，顯示入球球員、球場、入場人數；時間一律換算為香港時間
 - **球員數據**：射手榜（自動統計）、助攻榜、賽季小數據
+- **精選影片**：YouTube 官方及新聞頻道的最新影片，點擊即可在站內播放
 - **譯名切換**：右上角可切換「港式」與「台式」球隊／球場譯名
 
 ## 檔案結構
@@ -20,7 +21,9 @@ epl/
 ├─ js/live.js              自動產生：賽果、賽程、助攻榜（請勿手動編輯）
 ├─ js/app.js               渲染邏輯（積分榜、射手榜計算、倒數、切換）
 └─ tools/
-   ├─ update-epl.ps1       更新腳本（抓取英超官方公開數據 → 寫入 js/live.js）
+   ├─ update-epl.ps1       更新腳本（抓取英超官方公開數據及 YouTube RSS → 寫入 js/live.js）
+   ├─ video-sources.json   影片來源頻道設定（可自行增減）
+   ├─ videos-cache.json    影片快取（抓取失敗時沿用）
    ├─ run-hidden.vbs       排程工作用的隱藏視窗啟動器
    ├─ results-cache.json   已抓取的賽事細節快取
    └─ update.log           更新記錄
@@ -50,6 +53,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\update-epl.ps1"
 - 字型（Noto Sans TC、Barlow Condensed）由 Google Fonts 載入，離線時會退回系統字型。
 - 球員姓名保留原文。
 - 「焦點戰」由腳本判定：六強互戰或打吡會標記為 featured。
+
+## 精選影片（YouTube）
+- 影片區的內容來自 `tools/video-sources.json` 所列的 YouTube 頻道，經 RSS 抓取，**毋須 API key**。
+- 想增減頻道：在該檔案加入 `{ "channelId": "UC...", "label": "標籤", "max": 6 }`。頻道 ID 可在頻道頁面網址 `/channel/UC...` 找到。
+- 縮圖點擊後才載入 YouTube 播放器，頁面載入較快，亦避免未睇片就被追蹤。
+- 每張卡片的播放視窗均有「在 YouTube 開啟」連結，萬一該片禁止嵌入亦有出路。
+- 注意：英超完整賽事精華受轉播權限制，官方 YouTube 頻道只提供短片、特輯與新聞，並沒有全場精華。
 
 ## 公開網站（GitHub Pages）
 - 版本庫 `main` 分支的根目錄即為網站，推送後約一分鐘自動更新。

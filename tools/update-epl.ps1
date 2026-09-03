@@ -176,6 +176,52 @@ try {
     }
   } catch { Log "助攻榜抓取失敗：$($_.Exception.Message)" }
 
+  # ---------- YouTube 影片（用 RSS，毋須 API key） ----------
+  $videos = @()
+  $videosCacheFile = Join-Path $toolsDir 'videos-cache.json'
+  $sourcesFile = Join-Path $toolsDir 'video-sources.json'
+  if (Test-Path $sourcesFile) {
+    $sources = Get-Content $sourcesFile -Raw -Encoding UTF8 | ConvertFrom-Json   # PS 5.1 的 ConvertFrom-Json 會把陣列當單一物件輸出，不可用 @() 包住
+    foreach ($src in $sources) {
+      try {
+        $rss = Invoke-WebRequest -Uri "https://www.youtube.com/feeds/videos.xml?channel_id=$($src.channelId)" -Headers @{ 'User-Agent' = $headers['User-Agent'] } -TimeoutSec 30 -UseBasicParsing
+        $xml = New-Object System.Xml.XmlDocument
+        $xml.LoadXml([System.Text.Encoding]::UTF8.GetString($rss.RawContentStream.ToArray()))
+        $ns = New-Object System.Xml.XmlNamespaceManager($xml.NameTable)
+        $ns.AddNamespace('a', 'http://www.w3.org/2005/Atom')
+        $ns.AddNamespace('yt', 'http://www.youtube.com/xml/schemas/2015')
+        $chNode = $xml.SelectSingleNode('/a:feed/a:title', $ns)
+        $chName = if ($chNode) { $chNode.InnerText } else { $src.channelId }
+        $max = if ($src.max) { [int]$src.max } else { 6 }
+        $n = 0
+        foreach ($e in $xml.SelectNodes('/a:feed/a:entry', $ns)) {
+          if ($n -ge $max) { break }
+          $vidNode = $e.SelectSingleNode('yt:videoId', $ns)
+          $ttlNode = $e.SelectSingleNode('a:title', $ns)
+          $pubNode = $e.SelectSingleNode('a:published', $ns)
+          if (-not $vidNode -or -not $ttlNode -or -not $pubNode) { continue }
+          $videos += [pscustomobject]@{
+            id        = $vidNode.InnerText
+            title     = $ttlNode.InnerText
+            channel   = $chName
+            label     = [string]$src.label
+            published = [DateTimeOffset]::Parse($pubNode.InnerText).UtcDateTime.ToString('yyyy-MM-ddTHH:mm:ssZ')
+          }
+          $n++
+        }
+        Log "YouTube：$chName 取得 $n 條片"
+      }
+      catch { Log "YouTube 抓取失敗（$($src.channelId)）：$($_.Exception.Message)" }
+    }
+  }
+  if ($videos.Count -gt 0) {
+    $videos = @($videos | Sort-Object { $_.published } -Descending | Select-Object -First 12)
+    [IO.File]::WriteAllText($videosCacheFile, ($videos | ConvertTo-Json -Depth 5 -Compress), (New-Object System.Text.UTF8Encoding($false)))
+  }
+  elseif (Test-Path $videosCacheFile) {
+    $videos = Get-Content $videosCacheFile -Raw -Encoding UTF8 | ConvertFrom-Json   # 抓取失敗時沿用上次結果
+    Log "YouTube 全部來源失敗，改用快取（$($videos.Count) 條）"
+  }
   # ---------- 輸出 live.js ----------
   $hkNow = $null
   foreach ($tzId in @('China Standard Time', 'Asia/Hong_Kong')) {   # Windows 與 Linux 的時區名稱不同
@@ -205,6 +251,11 @@ try {
     if ($x.featured) { $extra += ', featured: true' }
     if ($x.live) { $extra += ", live: true, hs: $($x.hs), as: $($x.'as'), clock: $(JsStr $x.clock)" }
     [void]$sb.AppendLine("  { gw: $($x.gw), kickoff: $(JsStr $x.kickoff), home: $(JsStr $x.home), away: $(JsStr $x.away), venue: $(JsStr $x.venue)$extra },")
+  }
+  [void]$sb.AppendLine('];')
+  [void]$sb.AppendLine('var VIDEOS = [')
+  foreach ($v in $videos) {
+    [void]$sb.AppendLine("  { id: $(JsStr $v.id), title: $(JsStr $v.title), channel: $(JsStr $v.channel), label: $(JsStr $v.label), published: $(JsStr $v.published) },")
   }
   [void]$sb.AppendLine('];')
   [void]$sb.AppendLine('var ASSISTS = [')
