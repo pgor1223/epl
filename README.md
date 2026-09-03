@@ -56,3 +56,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\update-epl.ps1"
 - `.github/workflows/update.yml` 每小時在 GitHub 的伺服器執行 `tools/update-epl.ps1`，賽果有變動時自動 commit `js/live.js`，毋須依賴本機電腦。
 - 亦可在 GitHub 的 **Actions → Update results → Run workflow** 手動觸發。
 - 更新新聞：修改 `js/data.js` 後執行 `git add -A && git commit -m "news" && git push`。
+
+## 本機與 GitHub 的分工
+- 賽果更新統一由 GitHub Actions 負責；本機排程工作 `EPL-Site-Update` 已停用（如需重新啟用：`Enable-ScheduledTask EPL-Site-Update`）。
+- 修改新聞前先同步：`git pull`，改好 `js/data.js` 後 `git add -A && git commit -m "news" && git push`。
+- 想在本機立即看到最新賽果：`git pull` 即可（或手動執行 `tools\update-epl.ps1`，但不要把它 commit，以免與雲端版本衝突）。
