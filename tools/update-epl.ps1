@@ -202,7 +202,7 @@ try {
           if (-not $vidNode -or -not $ttlNode -or -not $pubNode) { continue }
           $videos += [pscustomobject]@{
             id        = $vidNode.InnerText
-            title     = $ttlNode.InnerText
+            title     = ([regex]::Replace($ttlNode.InnerText, '\s*(#[^\s#]+\s*)+$', '')).Trim()   # 清走標題結尾的主題標籤
             channel   = $chName
             label     = [string]$src.label
             published = [DateTimeOffset]::Parse($pubNode.InnerText).UtcDateTime.ToString('yyyy-MM-ddTHH:mm:ssZ')
