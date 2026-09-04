@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-04 03:43 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-04 03:43", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-05 03:25 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-05 03:25", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -23,7 +23,7 @@ var RESULTS = [
   { gw: 2, kickoff: "2026-08-31T19:00:00Z", home: "AVL", away: "ARS", hs: 0, as: 1, venue: "Villa Park", att: 36804, goals: [ { p: "Bukayo Saka", t: "ARS", min: "59" } ] },
 ];
 var FIXTURES = [
-  { gw: 3, kickoff: "2026-09-04T19:00:00Z", home: "IPS", away: "LIV", venue: "Portman Road" },
+  { gw: 3, kickoff: "2026-09-04T19:00:00Z", home: "IPS", away: "LIV", venue: "Portman Road", live: true, hs: 0, as: 2, clock: "25'00" },
   { gw: 3, kickoff: "2026-09-05T11:30:00Z", home: "NEW", away: "BOU", venue: "St. James' Park" },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BHA", away: "LEE", venue: "American Express Stadium" },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BRE", away: "SUN", venue: "Gtech Community Stadium" },
@@ -399,6 +399,7 @@ var VIDEOS = [
   { id: "4AX9s-4GI4k", title: "英超賽後評（第一週）-利物浦僥倖迫和紐卡素/曼城絕對優勢的苦戰/ 曼聯遇老虎遇滑鐵盧/ 熱刺演出比上季更差的一場-文￼傑講波經24/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-24T17:48:51Z" },
 ];
 var ASSISTS = [
+  { n: "Cody Gakpo", t: "LIV", v: 3 },
   { n: "Riccardo Calafiori", t: "ARS", v: 2 },
   { n: "Rayan Cherki", t: "MCI", v: 2 },
   { n: "Evanilson", t: "BOU", v: 2 },
@@ -408,5 +409,4 @@ var ASSISTS = [
   { n: "Harrison Armstrong", t: "EVE", v: 1 },
   { n: "Mohamed Belloumi", t: "HUL", v: 1 },
   { n: "Bruno Fernandes", t: "MUN", v: 1 },
-  { n: "Timothy Castagne", t: "FUL", v: 1 },
 ];
