@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-05 03:25 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-05 03:25", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-05 06:18 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-05 06:18", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -21,9 +21,9 @@ var RESULTS = [
   { gw: 2, kickoff: "2026-08-30T13:00:00Z", home: "SUN", away: "FUL", hs: 1, as: 0, venue: "Stadium of Light", att: 46781, goals: [ { p: "Wilson Isidor", t: "SUN", min: "75" } ] },
   { gw: 2, kickoff: "2026-08-30T15:30:00Z", home: "MUN", away: "IPS", hs: 5, as: 2, venue: "Old Trafford", att: 74148, goals: [ { p: "Leif Davis", t: "IPS", min: "29" }, { p: "Bruno Fernandes", t: "MUN", min: "40" }, { p: "Jacob Greaves", t: "IPS", min: "56", og: true }, { p: "Bruno Fernandes", t: "MUN", min: "61", pen: true }, { p: "Bruno Fernandes", t: "MUN", min: "68" }, { p: "Bryan Mbeumo", t: "MUN", min: "82" }, { p: "Chuba Akpom", t: "IPS", min: "90+1" } ] },
   { gw: 2, kickoff: "2026-08-31T19:00:00Z", home: "AVL", away: "ARS", hs: 0, as: 1, venue: "Villa Park", att: 36804, goals: [ { p: "Bukayo Saka", t: "ARS", min: "59" } ] },
+  { gw: 3, kickoff: "2026-09-04T19:00:00Z", home: "IPS", away: "LIV", hs: 0, as: 2, venue: "Portman Road", att: 30019, goals: [ { p: "Alexander Isak", t: "LIV", min: "6" }, { p: "Alexander Isak", t: "LIV", min: "9" } ] },
 ];
 var FIXTURES = [
-  { gw: 3, kickoff: "2026-09-04T19:00:00Z", home: "IPS", away: "LIV", venue: "Portman Road", live: true, hs: 0, as: 2, clock: "25'00" },
   { gw: 3, kickoff: "2026-09-05T11:30:00Z", home: "NEW", away: "BOU", venue: "St. James' Park" },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BHA", away: "LEE", venue: "American Express Stadium" },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BRE", away: "SUN", venue: "Gtech Community Stadium" },
