@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-06 00:44 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-06 00:44", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-06 02:58 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-06 02:58", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -28,9 +28,9 @@ var RESULTS = [
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "FUL", away: "CRY", hs: 2, as: 3, venue: "Craven Cottage", att: null, goals: [ { p: "Josh King", t: "FUL", min: "11" }, { p: "Tyrick Mitchell", t: "CRY", min: "35" }, { p: "César Palacios", t: "FUL", min: "42" }, { p: "Tyrick Mitchell", t: "CRY", min: "54" }, { p: "Ben Chilwell", t: "CRY", min: "77" } ] },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "MCI", away: "COV", hs: 1, as: 0, venue: "Etihad Stadium", att: 60765, goals: [ { p: "Erling Haaland", t: "MCI", min: "26" } ] },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "NFO", away: "TOT", hs: 0, as: 0, venue: "The City Ground", att: 30686, goals: [  ] },
+  { gw: 3, kickoff: "2026-09-05T16:30:00Z", home: "HUL", away: "AVL", hs: 0, as: 0, venue: "The MKM Stadium", att: 24425, goals: [  ] },
 ];
 var FIXTURES = [
-  { gw: 3, kickoff: "2026-09-05T16:30:00Z", home: "HUL", away: "AVL", venue: "The MKM Stadium", live: true, hs: 0, as: 0, clock: "15'00" },
   { gw: 3, kickoff: "2026-09-06T13:00:00Z", home: "EVE", away: "MUN", venue: "Hill Dickinson Stadium" },
   { gw: 3, kickoff: "2026-09-06T15:30:00Z", home: "ARS", away: "CHE", venue: "Emirates Stadium", featured: true },
   { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "AVL", away: "NFO", venue: "Villa Park" },
