@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-05 06:18 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-05 06:18", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-05 18:28 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-05 18:28", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "X671i4y1V6k", title: "諾定咸森林 vs 熱刺Youtube Live-聲音直播球迷交流 05/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-05T08:06:09Z" },
   { id: "CCBQ6piC0Oo", title: "轉會未算最理想但仍然有提升，全力支持💪🏼💪🏼💪🏼-傑出阿仙奴04/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T19:01:58Z" },
   { id: "fcEVkicjFQs", title: "轉會大神EP134-愛華頓、車路士. 簽不到的摩納哥球員故事/ 皇馬神之操作/ 刀仔要鋸樹-文傑講波經03/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T16:24:13Z" },
   { id: "QnAn6ZpoNJ0", title: "轉會大神EP133-英超大會轉會總結 / 阿仙奴策略上出問題/ 車路士操作/皇巴拜又如何-文傑講波經02/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-02T19:17:30Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "JzG99UJYkOA", title: "轉會大神EP131-巴高拿投利物浦 / 車路士繼續買後防……/ 阿士東維拉In & Out / 柏連拿之遺憾-文傑講波經28/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-28T13:55:09Z" },
   { id: "Lb0C1d6arKs", title: "轉會大神EP130-槍迷唔想佢嚟 ？艾華利斯/ 咁樣對馬天利尼唔公平？/加寶真係吃香/ 曼城成為黑店？-文傑講波經26/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-25T17:43:07Z" },
   { id: "ZTbDVxUbvxo", title: "加歷查點評Wirtz反映出英超危機？文傑講波經 25/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-24T19:26:35Z" },
-  { id: "4AX9s-4GI4k", title: "英超賽後評（第一週）-利物浦僥倖迫和紐卡素/曼城絕對優勢的苦戰/ 曼聯遇老虎遇滑鐵盧/ 熱刺演出比上季更差的一場-文￼傑講波經24/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-24T17:48:51Z" },
 ];
 var ASSISTS = [
   { n: "Cody Gakpo", t: "LIV", v: 3 },
