@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-07 00:58 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-07 00:58", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-07 03:02 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-07 03:02", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -30,9 +30,9 @@ var RESULTS = [
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "NFO", away: "TOT", hs: 0, as: 0, venue: "The City Ground", att: 30686, goals: [  ] },
   { gw: 3, kickoff: "2026-09-05T16:30:00Z", home: "HUL", away: "AVL", hs: 0, as: 0, venue: "The MKM Stadium", att: 24425, goals: [  ] },
   { gw: 3, kickoff: "2026-09-06T13:00:00Z", home: "EVE", away: "MUN", hs: 2, as: 2, venue: "Hill Dickinson Stadium", att: null, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "46" }, { p: "Tyrique George", t: "EVE", min: "83" }, { p: "Benjamin Sesko", t: "MUN", min: "88" }, { p: "Ainsley Maitland-Niles", t: "EVE", min: "90+6" } ] },
+  { gw: 3, kickoff: "2026-09-06T15:30:00Z", home: "ARS", away: "CHE", hs: 2, as: 1, venue: "Emirates Stadium", att: 60240, goals: [ { p: "Morgan Rogers", t: "CHE", min: "2" }, { p: "Kai Havertz", t: "ARS", min: "25" }, { p: "Martin Ødegaard", t: "ARS", min: "50" } ] },
 ];
 var FIXTURES = [
-  { gw: 3, kickoff: "2026-09-06T15:30:00Z", home: "ARS", away: "CHE", venue: "Emirates Stadium", featured: true, live: true, hs: 2, as: 1, clock: "66'00" },
   { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "AVL", away: "NFO", venue: "Villa Park" },
   { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "BOU", away: "BRE", venue: "Vitality Stadium" },
   { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "CHE", away: "HUL", venue: "Stamford Bridge" },
@@ -385,8 +385,8 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "zKiB721vjPk", title: "阿仙奴 vs 車路士-傑出阿仙奴Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T18:13:02Z" },
   { id: "aYVdS-ZsFkI", title: "愛華頓 vs 曼聯-文傑講波經Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T15:07:26Z" },
-  { id: "zKiB721vjPk", title: "阿仙奴 vs 車路士-傑出阿仙奴Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T06:40:58Z" },
   { id: "X671i4y1V6k", title: "諾定咸森林 vs 熱刺-文傑講波經Youtube Live-聲音直播球迷交流 05/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-05T16:21:49Z" },
   { id: "CCBQ6piC0Oo", title: "轉會未算最理想但仍然有提升，全力支持💪🏼💪🏼💪🏼-傑出阿仙奴04/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T19:01:58Z" },
   { id: "fcEVkicjFQs", title: "轉會大神EP134-愛華頓、車路士. 簽不到的摩納哥球員故事/ 皇馬神之操作/ 刀仔要鋸樹-文傑講波經03/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T16:24:13Z" },
