@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-06 02:58 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-06 02:58", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-06 18:47 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-06 18:47", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -23,7 +23,7 @@ var RESULTS = [
   { gw: 2, kickoff: "2026-08-31T19:00:00Z", home: "AVL", away: "ARS", hs: 0, as: 1, venue: "Villa Park", att: 36804, goals: [ { p: "Bukayo Saka", t: "ARS", min: "59" } ] },
   { gw: 3, kickoff: "2026-09-04T19:00:00Z", home: "IPS", away: "LIV", hs: 0, as: 2, venue: "Portman Road", att: 30019, goals: [ { p: "Alexander Isak", t: "LIV", min: "6" }, { p: "Alexander Isak", t: "LIV", min: "9" } ] },
   { gw: 3, kickoff: "2026-09-05T11:30:00Z", home: "NEW", away: "BOU", hs: 2, as: 2, venue: "St. James' Park", att: 52643, goals: [ { p: "Marcus Tavernier", t: "BOU", min: "9" }, { p: "Malick Thiaw", t: "NEW", min: "35", og: true }, { p: "Harvey Barnes", t: "NEW", min: "37" }, { p: "Jacob Ramsey", t: "NEW", min: "88" } ] },
-  { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BHA", away: "LEE", hs: 1, as: 1, venue: "American Express Stadium", att: null, goals: [ { p: "Jayden Bogle", t: "LEE", min: "15" }, { p: "Luka Vuskovic", t: "BHA", min: "71" } ] },
+  { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BHA", away: "LEE", hs: 1, as: 1, venue: "American Express Stadium", att: 31661, goals: [ { p: "Jayden Bogle", t: "LEE", min: "15" }, { p: "Luka Vuskovic", t: "BHA", min: "71" } ] },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "BRE", away: "SUN", hs: 1, as: 1, venue: "Gtech Community Stadium", att: 17131, goals: [ { p: "Vitaly Janelt", t: "BRE", min: "57" }, { p: "Enzo Le Fée", t: "SUN", min: "82", pen: true } ] },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "FUL", away: "CRY", hs: 2, as: 3, venue: "Craven Cottage", att: null, goals: [ { p: "Josh King", t: "FUL", min: "11" }, { p: "Tyrick Mitchell", t: "CRY", min: "35" }, { p: "César Palacios", t: "FUL", min: "42" }, { p: "Tyrick Mitchell", t: "CRY", min: "54" }, { p: "Ben Chilwell", t: "CRY", min: "77" } ] },
   { gw: 3, kickoff: "2026-09-05T14:00:00Z", home: "MCI", away: "COV", hs: 1, as: 0, venue: "Etihad Stadium", att: 60765, goals: [ { p: "Erling Haaland", t: "MCI", min: "26" } ] },
@@ -385,6 +385,8 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "zKiB721vjPk", title: "阿仙奴 vs 車路士-傑出阿仙奴Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T06:40:58Z" },
+  { id: "aYVdS-ZsFkI", title: "愛華頓 vs 曼聯-文傑講波經Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T06:28:23Z" },
   { id: "X671i4y1V6k", title: "諾定咸森林 vs 熱刺-文傑講波經Youtube Live-聲音直播球迷交流 05/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-05T16:21:49Z" },
   { id: "CCBQ6piC0Oo", title: "轉會未算最理想但仍然有提升，全力支持💪🏼💪🏼💪🏼-傑出阿仙奴04/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T19:01:58Z" },
   { id: "fcEVkicjFQs", title: "轉會大神EP134-愛華頓、車路士. 簽不到的摩納哥球員故事/ 皇馬神之操作/ 刀仔要鋸樹-文傑講波經03/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T16:24:13Z" },
@@ -395,8 +397,6 @@ var VIDEOS = [
   { id: "_OaveO-j6tc", title: "熱刺 vs 紐卡素-文傑講波經Youtube Live-聲音直播球迷交流 30/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-29T18:41:49Z" },
   { id: "o-Q8eYotciY", title: "利物浦 vs 諾定咸森林-文傑講波經Youtube Live-聲音直播球迷交流 29/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-29T13:49:46Z" },
   { id: "JzG99UJYkOA", title: "轉會大神EP131-巴高拿投利物浦 / 車路士繼續買後防……/ 阿士東維拉In & Out / 柏連拿之遺憾-文傑講波經28/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-28T13:55:09Z" },
-  { id: "Lb0C1d6arKs", title: "轉會大神EP130-槍迷唔想佢嚟 ？艾華利斯/ 咁樣對馬天利尼唔公平？/加寶真係吃香/ 曼城成為黑店？-文傑講波經26/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-25T17:43:07Z" },
-  { id: "ZTbDVxUbvxo", title: "加歷查點評Wirtz反映出英超危機？文傑講波經 25/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-24T19:26:35Z" },
 ];
 var ASSISTS = [
   { n: "Cody Gakpo", t: "LIV", v: 3 },
