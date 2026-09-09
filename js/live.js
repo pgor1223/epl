@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-09 22:25 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-09 22:25", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-10 05:38 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-10 05:38", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,7 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
-  { id: "V7zTUswgxM0", title: "(歐冠) 拿玻里 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 10/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-09T11:56:32Z" },
+  { id: "V7zTUswgxM0", title: "(歐冠) 拿玻里 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 10/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-09T21:27:58Z" },
   { id: "vdE97Fl1VUM", title: "（賽後評+廣東話字幕）阿仙奴2:1車路士. 含金量超高勝仗/ 我認為馬天利尼最可惜係……-傑出阿仙奴09/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-08T20:09:54Z" },
   { id: "zKiB721vjPk", title: "阿仙奴 vs 車路士-傑出阿仙奴Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T18:13:02Z" },
   { id: "aYVdS-ZsFkI", title: "愛華頓 vs 曼聯-文傑講波經Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T15:07:26Z" },
