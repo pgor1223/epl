@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-10 22:17 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-10 22:17", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-11 02:19 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-11 02:19", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "KfgmL1mRL10", title: "歐戰風雲26/27-曼城作客2:0擊敗波圖，差距太大/利物浦主場2:1力克馬體會，上落緊湊-文傑講波經10/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-10T15:40:33Z" },
   { id: "V7zTUswgxM0", title: "(歐冠) 拿玻里 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 10/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-09T21:27:58Z" },
   { id: "vdE97Fl1VUM", title: "（賽後評+廣東話字幕）阿仙奴2:1車路士. 含金量超高勝仗/ 我認為馬天利尼最可惜係……-傑出阿仙奴09/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-08T20:09:54Z" },
   { id: "zKiB721vjPk", title: "阿仙奴 vs 車路士-傑出阿仙奴Youtube Live-聲音直播球迷交流 06/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-06T18:13:02Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "84WvGc1atxI", title: "轉會大神EP132-穆迪歷過熱刺？/基列殊再接再勵/加寶留利物浦的代價/最昂貴年青門將-文傑講波經01/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-01T12:42:53Z" },
   { id: "uPV_VQ5mytc", title: "阿士東維拉 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 01/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-31T21:11:39Z" },
   { id: "EPel8o2xfW0", title: "車路士 vs 白禮頓-文傑講波經Youtube Live-聲音直播球迷交流 30/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-30T15:08:52Z" },
-  { id: "_OaveO-j6tc", title: "熱刺 vs 紐卡素-文傑講波經Youtube Live-聲音直播球迷交流 30/08/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-08-29T18:41:49Z" },
 ];
 var ASSISTS = [
   { n: "Cody Gakpo", t: "LIV", v: 3 },
