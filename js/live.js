@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-12 22:00 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-12 22:00", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-13 00:57 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-13 00:57", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -31,14 +31,14 @@ var RESULTS = [
   { gw: 3, kickoff: "2026-09-05T16:30:00Z", home: "HUL", away: "AVL", hs: 0, as: 0, venue: "The MKM Stadium", att: 24425, goals: [  ] },
   { gw: 3, kickoff: "2026-09-06T13:00:00Z", home: "EVE", away: "MUN", hs: 2, as: 2, venue: "Hill Dickinson Stadium", att: 52302, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "46" }, { p: "Tyrique George", t: "EVE", min: "83" }, { p: "Benjamin Sesko", t: "MUN", min: "88" }, { p: "Ainsley Maitland-Niles", t: "EVE", min: "90+6" } ] },
   { gw: 3, kickoff: "2026-09-06T15:30:00Z", home: "ARS", away: "CHE", hs: 2, as: 1, venue: "Emirates Stadium", att: 60240, goals: [ { p: "Morgan Rogers", t: "CHE", min: "2" }, { p: "Kai Havertz", t: "ARS", min: "25" }, { p: "Martin Ødegaard", t: "ARS", min: "50" } ] },
+  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "AVL", away: "NFO", hs: 1, as: 2, venue: "Villa Park", att: 36714, goals: [ { p: "Liam Delap", t: "NFO", min: "46" }, { p: "Alysson", t: "AVL", min: "74" }, { p: "Igor Jesus", t: "NFO", min: "88" } ] },
+  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "BOU", away: "BRE", hs: 2, as: 2, venue: "Vitality Stadium", att: null, goals: [ { p: "Kevin Schade", t: "BRE", min: "34" }, { p: "Justin Kluivert", t: "BOU", min: "38" }, { p: "Marcus Tavernier", t: "BOU", min: "52" }, { p: "Kevin Schade", t: "BRE", min: "56" } ] },
+  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "CHE", away: "HUL", hs: 2, as: 2, venue: "Stamford Bridge", att: 39352, goals: [ { p: "Morgan Rogers", t: "CHE", min: "7" }, { p: "Mohamed Belloumi", t: "HUL", min: "28" }, { p: "Mohamed Belloumi", t: "HUL", min: "34" }, { p: "João Pedro", t: "CHE", min: "66" } ] },
+  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "CRY", away: "IPS", hs: 2, as: 3, venue: "Selhurst Park", att: 25122, goals: [ { p: "Anan Khalaili", t: "CRY", min: "14" }, { p: "Emersonn", t: "IPS", min: "23" }, { p: "Leif Davis", t: "IPS", min: "45" }, { p: "Jørgen Strand Larsen", t: "CRY", min: "75" }, { p: "Zian Flemming", t: "IPS", min: "90" } ] },
+  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "LIV", away: "FUL", hs: 0, as: 0, venue: "Anfield", att: null, goals: [  ] },
 ];
 var FIXTURES = [
-  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "AVL", away: "NFO", venue: "Villa Park" },
-  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "BOU", away: "BRE", venue: "Vitality Stadium", live: true, hs: 0, as: 0, clock: "00'00" },
-  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "CHE", away: "HUL", venue: "Stamford Bridge" },
-  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "CRY", away: "IPS", venue: "Selhurst Park" },
-  { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "LIV", away: "FUL", venue: "Anfield" },
-  { gw: 4, kickoff: "2026-09-12T16:30:00Z", home: "TOT", away: "EVE", venue: "Tottenham Hotspur Stadium" },
+  { gw: 4, kickoff: "2026-09-12T16:30:00Z", home: "TOT", away: "EVE", venue: "Tottenham Hotspur Stadium", live: true, hs: 0, as: 0, clock: "27'00" },
   { gw: 4, kickoff: "2026-09-12T19:00:00Z", home: "SUN", away: "ARS", venue: "Stadium of Light" },
   { gw: 4, kickoff: "2026-09-13T13:00:00Z", home: "COV", away: "BHA", venue: "Coventry Building Society Arena" },
   { gw: 4, kickoff: "2026-09-13T15:30:00Z", home: "MUN", away: "MCI", venue: "Old Trafford", featured: true },
@@ -399,14 +399,14 @@ var VIDEOS = [
   { id: "QnAn6ZpoNJ0", title: "轉會大神EP133-英超大會轉會總結 / 阿仙奴策略上出問題/ 車路士操作/皇巴拜又如何-文傑講波經02/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-02T19:17:30Z" },
 ];
 var ASSISTS = [
+  { n: "Evanilson", t: "BOU", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
+  { n: "João Pedro", t: "CHE", v: 3 },
+  { n: "Daichi Kamada", t: "CRY", v: 3 },
   { n: "Riccardo Calafiori", t: "ARS", v: 2 },
   { n: "Rayan Cherki", t: "MCI", v: 2 },
-  { n: "Evanilson", t: "BOU", v: 2 },
   { n: "Julio Enciso", t: "IPS", v: 2 },
   { n: "Phil Foden", t: "MCI", v: 2 },
+  { n: "Morgan Gibbs-White", t: "NFO", v: 2 },
   { n: "Jorrel Hato", t: "CHE", v: 2 },
-  { n: "João Pedro", t: "CHE", v: 2 },
-  { n: "Antoine Semenyo", t: "MCI", v: 2 },
-  { n: "Harrison Armstrong", t: "EVE", v: 1 },
 ];
