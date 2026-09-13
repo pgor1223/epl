@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-13 06:16 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-13 06:16", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-14 00:08 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-14 00:08", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -38,10 +38,10 @@ var RESULTS = [
   { gw: 4, kickoff: "2026-09-12T14:00:00Z", home: "LIV", away: "FUL", hs: 0, as: 0, venue: "Anfield", att: null, goals: [  ] },
   { gw: 4, kickoff: "2026-09-12T16:30:00Z", home: "TOT", away: "EVE", hs: 0, as: 0, venue: "Tottenham Hotspur Stadium", att: 60477, goals: [  ] },
   { gw: 4, kickoff: "2026-09-12T19:00:00Z", home: "SUN", away: "ARS", hs: 0, as: 2, venue: "Stadium of Light", att: null, goals: [ { p: "Bruno Guimarães", t: "ARS", min: "58" }, { p: "Bukayo Saka", t: "ARS", min: "90+7", pen: true } ] },
+  { gw: 4, kickoff: "2026-09-13T13:00:00Z", home: "COV", away: "BHA", hs: 0, as: 5, venue: "Coventry Building Society Arena", att: 31492, goals: [ { p: "Charalampos Kostoulas", t: "BHA", min: "35" }, { p: "Malick Yalcouyé", t: "BHA", min: "51" }, { p: "Pascal Groß", t: "BHA", min: "70", pen: true }, { p: "Lewis Dunk", t: "BHA", min: "83" }, { p: "Yasin Ayari", t: "BHA", min: "90+4" } ] },
 ];
 var FIXTURES = [
-  { gw: 4, kickoff: "2026-09-13T13:00:00Z", home: "COV", away: "BHA", venue: "Coventry Building Society Arena" },
-  { gw: 4, kickoff: "2026-09-13T15:30:00Z", home: "MUN", away: "MCI", venue: "Old Trafford", featured: true },
+  { gw: 4, kickoff: "2026-09-13T15:30:00Z", home: "MUN", away: "MCI", venue: "Old Trafford", featured: true, live: true, hs: 0, as: 0, clock: "38'00" },
   { gw: 4, kickoff: "2026-09-14T19:00:00Z", home: "LEE", away: "NEW", venue: "Elland Road" },
   { gw: 5, kickoff: "2026-09-18T19:00:00Z", home: "BRE", away: "CHE", venue: "Gtech Community Stadium" },
   { gw: 5, kickoff: "2026-09-19T11:30:00Z", home: "TOT", away: "AVL", venue: "Tottenham Hotspur Stadium" },
@@ -405,8 +405,8 @@ var ASSISTS = [
   { n: "Daichi Kamada", t: "CRY", v: 3 },
   { n: "Riccardo Calafiori", t: "ARS", v: 2 },
   { n: "Rayan Cherki", t: "MCI", v: 2 },
+  { n: "Maxim De Cuyper", t: "BHA", v: 2 },
   { n: "Julio Enciso", t: "IPS", v: 2 },
   { n: "Phil Foden", t: "MCI", v: 2 },
   { n: "Morgan Gibbs-White", t: "NFO", v: 2 },
-  { n: "Jorrel Hato", t: "CHE", v: 2 },
 ];
