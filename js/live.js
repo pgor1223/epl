@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-14 03:19 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-14 03:19", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-15 02:32 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-15 02:32", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "M6CJXP0gTIA", title: "英超賽後討論Live-曼城赢個越位波？/利物浦重心在哪裏/熱刺踢出本季最好15分鐘-文傑講波經Youtube Live--聲音直播球迷交流 14/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-14T18:04:45Z" },
   { id: "m-KQfrIckQ4", title: "曼聯 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-13T18:05:06Z" },
   { id: "DmOLebjvcM8", title: "新特蘭 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-12T21:32:49Z" },
   { id: "1pcInaPbcKI", title: "熱刺 vs 愛華頓-文傑講波經Youtube Live-聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-12T18:36:56Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "X671i4y1V6k", title: "諾定咸森林 vs 熱刺-文傑講波經Youtube Live-聲音直播球迷交流 05/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-05T16:21:49Z" },
   { id: "CCBQ6piC0Oo", title: "轉會未算最理想但仍然有提升，全力支持💪🏼💪🏼💪🏼-傑出阿仙奴04/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T19:01:58Z" },
   { id: "fcEVkicjFQs", title: "轉會大神EP134-愛華頓、車路士. 簽不到的摩納哥球員故事/ 皇馬神之操作/ 刀仔要鋸樹-文傑講波經03/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-03T16:24:13Z" },
-  { id: "QnAn6ZpoNJ0", title: "轉會大神EP133-英超大會轉會總結 / 阿仙奴策略上出問題/ 車路士操作/皇巴拜又如何-文傑講波經02/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-02T19:17:30Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 3 },
