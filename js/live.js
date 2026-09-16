@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-16 02:06 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-16 02:06", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-17 00:44 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-17 00:44", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -40,7 +40,7 @@ var RESULTS = [
   { gw: 4, kickoff: "2026-09-12T19:00:00Z", home: "SUN", away: "ARS", hs: 0, as: 2, venue: "Stadium of Light", att: null, goals: [ { p: "Bruno Guimarães", t: "ARS", min: "58" }, { p: "Bukayo Saka", t: "ARS", min: "90+7", pen: true } ] },
   { gw: 4, kickoff: "2026-09-13T13:00:00Z", home: "COV", away: "BHA", hs: 0, as: 5, venue: "Coventry Building Society Arena", att: 31492, goals: [ { p: "Charalampos Kostoulas", t: "BHA", min: "35" }, { p: "Malick Yalcouyé", t: "BHA", min: "51" }, { p: "Pascal Groß", t: "BHA", min: "70", pen: true }, { p: "Lewis Dunk", t: "BHA", min: "83" }, { p: "Yasin Ayari", t: "BHA", min: "90+4" } ] },
   { gw: 4, kickoff: "2026-09-13T15:30:00Z", home: "MUN", away: "MCI", hs: 0, as: 1, venue: "Old Trafford", att: 74161, goals: [ { p: "Erling Haaland", t: "MCI", min: "60" } ] },
-  { gw: 4, kickoff: "2026-09-14T19:00:00Z", home: "LEE", away: "NEW", hs: 4, as: 1, venue: "Elland Road", att: 36693, goals: [ { p: "Lewis Miley", t: "NEW", min: "32", og: true }, { p: "Jayden Bogle", t: "LEE", min: "34" }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "45+1" }, { p: "Noah Okafor", t: "LEE", min: "59" }, { p: "Bazoumana Touré", t: "NEW", min: "90" } ] },
+  { gw: 4, kickoff: "2026-09-14T19:00:00Z", home: "LEE", away: "NEW", hs: 4, as: 1, venue: "Elland Road", att: 36693, goals: [ { p: "Lewis Miley", t: "NEW", min: "32", og: true }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "34" }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "45+1" }, { p: "Noah Okafor", t: "LEE", min: "59" }, { p: "Bazoumana Touré", t: "NEW", min: "90" } ] },
 ];
 var FIXTURES = [
   { gw: 5, kickoff: "2026-09-18T19:00:00Z", home: "BRE", away: "CHE", venue: "Gtech Community Stadium" },
