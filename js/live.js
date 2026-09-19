@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-19 22:19 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-19 22:19", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-20 01:56 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-20 01:56", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -43,12 +43,12 @@ var RESULTS = [
   { gw: 4, kickoff: "2026-09-14T19:00:00Z", home: "LEE", away: "NEW", hs: 4, as: 1, venue: "Elland Road", att: 36693, goals: [ { p: "Lewis Miley", t: "NEW", min: "32", og: true }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "34" }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "45+1" }, { p: "Noah Okafor", t: "LEE", min: "59" }, { p: "Bazoumana Touré", t: "NEW", min: "90" } ] },
   { gw: 5, kickoff: "2026-09-18T19:00:00Z", home: "BRE", away: "CHE", hs: 3, as: 0, venue: "Gtech Community Stadium", att: 17193, goals: [ { p: "Jaidon Anthony", t: "BRE", min: "61" }, { p: "Igor Thiago", t: "BRE", min: "83" }, { p: "Fábio Carvalho", t: "BRE", min: "90+4" } ] },
   { gw: 5, kickoff: "2026-09-19T11:30:00Z", home: "TOT", away: "AVL", hs: 2, as: 3, venue: "Tottenham Hotspur Stadium", att: 60920, goals: [ { p: "Johan Manzambi", t: "AVL", min: "45+4" }, { p: "Nicolas Jackson", t: "AVL", min: "67" }, { p: "Emiliano Buendía", t: "AVL", min: "79" }, { p: "Conor Gallagher", t: "TOT", min: "86" }, { p: "Jan Paul van Hecke", t: "TOT", min: "90+8" } ] },
+  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "BHA", away: "ARS", hs: 3, as: 0, venue: "American Express Stadium", att: 31944, goals: [ { p: "Pascal Groß", t: "BHA", min: "31" }, { p: "Charalampos Kostoulas", t: "BHA", min: "45" }, { p: "Chema Andrés", t: "BHA", min: "57" } ] },
+  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "EVE", away: "IPS", hs: 1, as: 0, venue: "Hill Dickinson Stadium", att: 52008, goals: [ { p: "Thierno Barry", t: "EVE", min: "11" } ] },
+  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "NEW", away: "HUL", hs: 2, as: 1, venue: "St. James' Park", att: 52647, goals: [ { p: "Joe Willock", t: "NEW", min: "3" }, { p: "Lewis Hall", t: "NEW", min: "7" }, { p: "Mohamed-Ali Cho", t: "HUL", min: "67" } ] },
 ];
 var FIXTURES = [
-  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "BHA", away: "ARS", venue: "American Express Stadium", live: true, hs: 0, as: 0, clock: "17'00" },
-  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "EVE", away: "IPS", venue: "Hill Dickinson Stadium", live: true, hs: 1, as: 0, clock: "18'00" },
-  { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "NEW", away: "HUL", venue: "St. James' Park", live: true, hs: 2, as: 0, clock: "19'00" },
-  { gw: 5, kickoff: "2026-09-19T16:30:00Z", home: "NFO", away: "COV", venue: "The City Ground" },
+  { gw: 5, kickoff: "2026-09-19T16:30:00Z", home: "NFO", away: "COV", venue: "The City Ground", live: true, hs: 0, as: 1, clock: "69'00" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "BOU", away: "LIV", venue: "Vitality Stadium" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "LEE", away: "CRY", venue: "Elland Road" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "MCI", away: "SUN", venue: "Etihad Stadium" },
@@ -385,8 +385,8 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "B_yG-ogxNT0", title: "白禮頓 vs 阿仙奴 -傑出阿仙奴Youtube Live--聲音直播球迷交流 19/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-19T16:31:07Z" },
   { id: "2K6gLqKM0Ds", title: "(破蛋之戰？) 熱刺 vs 阿士東維拉-文傑講波經Youtube Live--聲音直播球迷交流 19/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-19T13:44:18Z" },
-  { id: "B_yG-ogxNT0", title: "白禮頓 vs 阿仙奴 -傑出阿仙奴Youtube Live--聲音直播球迷交流 19/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-19T06:37:02Z" },
   { id: "Ym3HqBUNUZg", title: "（中英文字幕）新特蘭0:2阿仙奴/ 槍手最強品質/ 熱血. 勝利. 世界波-傑出阿仙奴15/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-15T14:10:42Z" },
   { id: "M6CJXP0gTIA", title: "英超賽後討論Live-曼城赢個越位波？/利物浦重心在哪裏/熱刺踢出本季最好15分鐘-文傑講波經Youtube Live--聲音直播球迷交流 14/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-14T18:04:45Z" },
   { id: "m-KQfrIckQ4", title: "曼聯 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-13T18:05:06Z" },
@@ -401,12 +401,12 @@ var VIDEOS = [
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
+  { n: "Pascal Groß", t: "BHA", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
   { n: "Harvey Barnes", t: "NEW", v: 2 },
+  { n: "Mohamed Belloumi", t: "HUL", v: 2 },
   { n: "Riccardo Calafiori", t: "ARS", v: 2 },
   { n: "Rayan Cherki", t: "MCI", v: 2 },
   { n: "Maxim De Cuyper", t: "BHA", v: 2 },
-  { n: "Julio Enciso", t: "IPS", v: 2 },
-  { n: "Phil Foden", t: "MCI", v: 2 },
 ];
