@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-20 01:56 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-20 01:56", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-20 04:31 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-20 04:31", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -46,9 +46,9 @@ var RESULTS = [
   { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "BHA", away: "ARS", hs: 3, as: 0, venue: "American Express Stadium", att: 31944, goals: [ { p: "Pascal Groß", t: "BHA", min: "31" }, { p: "Charalampos Kostoulas", t: "BHA", min: "45" }, { p: "Chema Andrés", t: "BHA", min: "57" } ] },
   { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "EVE", away: "IPS", hs: 1, as: 0, venue: "Hill Dickinson Stadium", att: 52008, goals: [ { p: "Thierno Barry", t: "EVE", min: "11" } ] },
   { gw: 5, kickoff: "2026-09-19T14:00:00Z", home: "NEW", away: "HUL", hs: 2, as: 1, venue: "St. James' Park", att: 52647, goals: [ { p: "Joe Willock", t: "NEW", min: "3" }, { p: "Lewis Hall", t: "NEW", min: "7" }, { p: "Mohamed-Ali Cho", t: "HUL", min: "67" } ] },
+  { gw: 5, kickoff: "2026-09-19T16:30:00Z", home: "NFO", away: "COV", hs: 0, as: 1, venue: "The City Ground", att: 30666, goals: [ { p: "Jay Dasilva", t: "COV", min: "55" } ] },
 ];
 var FIXTURES = [
-  { gw: 5, kickoff: "2026-09-19T16:30:00Z", home: "NFO", away: "COV", venue: "The City Ground", live: true, hs: 0, as: 1, clock: "69'00" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "BOU", away: "LIV", venue: "Vitality Stadium" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "LEE", away: "CRY", venue: "Elland Road" },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "MCI", away: "SUN", venue: "Etihad Stadium" },
