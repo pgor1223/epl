@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-21 02:41 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-21 02:41", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-21 05:26 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-21 05:26", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -49,7 +49,7 @@ var RESULTS = [
   { gw: 5, kickoff: "2026-09-19T16:30:00Z", home: "NFO", away: "COV", hs: 0, as: 1, venue: "The City Ground", att: 30666, goals: [ { p: "Jay Dasilva", t: "COV", min: "55" } ] },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "BOU", away: "LIV", hs: 0, as: 1, venue: "Vitality Stadium", att: 11316, goals: [ { p: "Alexander Isak", t: "LIV", min: "57" } ] },
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "LEE", away: "CRY", hs: 0, as: 0, venue: "Elland Road", att: 36462, goals: [  ] },
-  { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "MCI", away: "SUN", hs: 5, as: 3, venue: "Etihad Stadium", att: null, goals: [ { p: "Enzo Fernández", t: "MCI", min: "9" }, { p: "Brian Brobbey", t: "SUN", min: "12" }, { p: "Rayan Cherki", t: "MCI", min: "29" }, { p: "Brian Brobbey", t: "SUN", min: "33" }, { p: "Antoine Semenyo", t: "MCI", min: "43" }, { p: "Antoine Semenyo", t: "MCI", min: "57" }, { p: "Brian Brobbey", t: "SUN", min: "59" }, { p: "Erling Haaland", t: "MCI", min: "81" } ] },
+  { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "MCI", away: "SUN", hs: 5, as: 3, venue: "Etihad Stadium", att: 60312, goals: [ { p: "Enzo Fernández", t: "MCI", min: "9" }, { p: "Brian Brobbey", t: "SUN", min: "12" }, { p: "Rayan Cherki", t: "MCI", min: "29" }, { p: "Brian Brobbey", t: "SUN", min: "33" }, { p: "Antoine Semenyo", t: "MCI", min: "43" }, { p: "Antoine Semenyo", t: "MCI", min: "57" }, { p: "Brian Brobbey", t: "SUN", min: "59" }, { p: "Erling Haaland", t: "MCI", min: "81" } ] },
   { gw: 5, kickoff: "2026-09-20T15:30:00Z", home: "FUL", away: "MUN", hs: 1, as: 1, venue: "Craven Cottage", att: null, goals: [ { p: "Lisandro Martínez", t: "MUN", min: "63", og: true }, { p: "Matheus Cunha", t: "MUN", min: "89" } ] },
 ];
 var FIXTURES = [
