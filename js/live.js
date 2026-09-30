@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-26 20:59 (HKT) 產生。 */
-var LIVE = { updated: "2026-09-26 20:59", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-09-30 08:18 (HKT) 產生。 */
+var LIVE = { updated: "2026-09-30 08:18", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "GVw7QKWBlW8", title: "英超官方聲明/曼城必將重罰 /點樣罰有數得計-文傑講波經30/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-29T20:43:29Z" },
   { id: "jeb6keg4zZQ", title: "114-曼城-文傑講波經26/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-26T12:53:01Z" },
   { id: "qP-XKAaMAKc", title: "（中英字幕）收購未來頂級射手 / 蜜蜂之旺/ 最頂薪教練/ 勸Rice咪跑咁多-傑出阿仙奴25/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-24T17:55:18Z" },
   { id: "p78NLRTOTT4", title: "（賽後評）白禮頓3:0阿仙奴/Rice和Bruno的配合/ 海鷗最有利的地方/阿仙奴怎樣被完全碾壓？-傑出阿仙奴21/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-21T17:53:34Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "m-KQfrIckQ4", title: "曼聯 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-13T18:05:06Z" },
   { id: "DmOLebjvcM8", title: "新特蘭 vs 阿仙奴-傑出阿仙奴Youtube Live-聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-12T21:32:49Z" },
   { id: "1pcInaPbcKI", title: "熱刺 vs 愛華頓-文傑講波經Youtube Live-聲音直播球迷交流 13/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-12T18:36:56Z" },
-  { id: "KfgmL1mRL10", title: "歐戰風雲26/27-曼城作客2:0擊敗波圖，差距太大/利物浦主場2:1力克馬體會，上落緊湊-文傑講波經10/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-10T15:40:33Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 3 },
