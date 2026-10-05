@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-05 01:26 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-05 01:26", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-05 23:52 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-05 23:52", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
   { id: "gJGwIoZR1T8", title: "曼聯進攻. 禍「福」難料-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T17:25:52Z" },
   { id: "FiNY01YZ3dE", title: "紅魔鬼想追數 / 曼城114. 伊蒂哈德反擊戰-文傑講波經03/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-03T17:00:55Z" },
   { id: "Y64Q-QdyenU", title: "曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "8bgYH06tC0I", title: "富咸 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 20/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-20T17:50:15Z" },
   { id: "B_yG-ogxNT0", title: "白禮頓 vs 阿仙奴 -傑出阿仙奴Youtube Live--聲音直播球迷交流 19/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-19T16:31:07Z" },
   { id: "2K6gLqKM0Ds", title: "(破蛋之戰？) 熱刺 vs 阿士東維拉-文傑講波經Youtube Live--聲音直播球迷交流 19/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-19T13:44:18Z" },
-  { id: "Ym3HqBUNUZg", title: "（中英文字幕）新特蘭0:2阿仙奴/ 槍手最強品質/ 熱血. 勝利. 世界波-傑出阿仙奴15/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-15T14:10:42Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 3 },
