@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-05 23:52 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-05 23:52", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-06 18:05 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-06 18:05", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -387,11 +387,11 @@ var FIXTURES = [
 var VIDEOS = [
   { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
   { id: "gJGwIoZR1T8", title: "曼聯進攻. 禍「福」難料-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T17:25:52Z" },
-  { id: "FiNY01YZ3dE", title: "紅魔鬼想追數 / 曼城114. 伊蒂哈德反擊戰-文傑講波經03/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-03T17:00:55Z" },
-  { id: "Y64Q-QdyenU", title: "曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
-  { id: "0jvQ90QtjME", title: "驅逐-大佬出手最重判罰/ 球迷專題：財務規條只關照大球會￼-文傑講波經01/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-01T20:32:12Z" },
-  { id: "GVw7QKWBlW8", title: "英超官方聲明/曼城必將重罰 /點樣罰有數得計-文傑講波經30/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-29T20:43:29Z" },
-  { id: "jeb6keg4zZQ", title: "114-曼城-文傑講波經26/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-26T12:53:01Z" },
+  { id: "FiNY01YZ3dE", title: "(5)紅魔鬼想追數 / 曼城114. 伊蒂哈德反擊戰-文傑講波經03/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-03T17:00:55Z" },
+  { id: "Y64Q-QdyenU", title: "(4)曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
+  { id: "0jvQ90QtjME", title: "(3)驅逐-大佬出手最重判罰/ 球迷專題：財務規條只關照大球會￼-文傑講波經01/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-01T20:32:12Z" },
+  { id: "GVw7QKWBlW8", title: "(2)英超官方聲明/曼城必將重罰 /點樣罰有數得計-文傑講波經30/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-29T20:43:29Z" },
+  { id: "jeb6keg4zZQ", title: "(1)114-曼城-文傑講波經26/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-26T12:53:01Z" },
   { id: "qP-XKAaMAKc", title: "（中英字幕）收購未來頂級射手 / 蜜蜂之旺/ 最頂薪教練/ 勸Rice咪跑咁多-傑出阿仙奴25/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-24T17:55:18Z" },
   { id: "p78NLRTOTT4", title: "（賽後評）白禮頓3:0阿仙奴/Rice和Bruno的配合/ 海鷗最有利的地方/阿仙奴怎樣被完全碾壓？-傑出阿仙奴21/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-21T17:53:34Z" },
   { id: "8bgYH06tC0I", title: "富咸 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 20/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-20T17:50:15Z" },
