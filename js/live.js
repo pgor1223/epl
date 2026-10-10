@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-10 21:32 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-10 21:32", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-11 02:27 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-11 02:27", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -52,13 +52,14 @@ var RESULTS = [
   { gw: 5, kickoff: "2026-09-20T13:00:00Z", home: "MCI", away: "SUN", hs: 5, as: 3, venue: "Etihad Stadium", att: 60312, goals: [ { p: "Enzo Fernández", t: "MCI", min: "9" }, { p: "Brian Brobbey", t: "SUN", min: "12" }, { p: "Rayan Cherki", t: "MCI", min: "29" }, { p: "Brian Brobbey", t: "SUN", min: "33" }, { p: "Antoine Semenyo", t: "MCI", min: "43" }, { p: "Antoine Semenyo", t: "MCI", min: "57" }, { p: "Brian Brobbey", t: "SUN", min: "59" }, { p: "Erling Haaland", t: "MCI", min: "81" } ] },
   { gw: 5, kickoff: "2026-09-20T15:30:00Z", home: "FUL", away: "MUN", hs: 1, as: 1, venue: "Craven Cottage", att: null, goals: [ { p: "Lisandro Martínez", t: "MUN", min: "63", og: true }, { p: "Matheus Cunha", t: "MUN", min: "89" } ] },
   { gw: 6, kickoff: "2026-10-10T11:30:00Z", home: "ARS", away: "LEE", hs: 2, as: 1, venue: "Emirates Stadium", att: 60315, goals: [ { p: "James Justin", t: "LEE", min: "55" }, { p: "Riccardo Calafiori", t: "ARS", min: "62" }, { p: "Bruno Guimarães", t: "ARS", min: "70" } ] },
+  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "AVL", away: "BRE", hs: 2, as: 2, venue: "Villa Park", att: 36636, goals: [ { p: "Yehor Yarmoliuk", t: "BRE", min: "10" }, { p: "Nicolas Jackson", t: "AVL", min: "12" }, { p: "John McGinn", t: "AVL", min: "77" }, { p: "Kristoffer Ajer", t: "BRE", min: "79" } ] },
+  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "CHE", away: "BOU", hs: 5, as: 1, venue: "Stamford Bridge", att: 39676, goals: [ { p: "Jordan Henderson", t: "CHE", min: "2" }, { p: "Morgan Rogers", t: "CHE", min: "3" }, { p: "João Pedro", t: "CHE", min: "46" }, { p: "Evanilson", t: "BOU", min: "51" }, { p: "João Pedro", t: "CHE", min: "67" }, { p: "Jordan Henderson", t: "CHE", min: "70" } ] },
+  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "IPS", away: "FUL", hs: 2, as: 1, venue: "Portman Road", att: 29445, goals: [ { p: "Ryan Sessegnon", t: "FUL", min: "55" }, { p: "Abdoul Ouattara", t: "IPS", min: "88" }, { p: "Dara O'Shea", t: "IPS", min: "90+1" } ] },
+  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "SUN", away: "BHA", hs: 0, as: 2, venue: "Stadium of Light", att: 47196, goals: [ { p: "Maxim De Cuyper", t: "BHA", min: "53" }, { p: "Jaouen Hadjam", t: "BHA", min: "90+3" } ] },
+  { gw: 6, kickoff: "2026-10-10T16:30:00Z", home: "MUN", away: "TOT", hs: 1, as: 1, venue: "Old Trafford", att: 74129, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "73" }, { p: "Dominic Solanke", t: "TOT", min: "90+2" } ] },
 ];
 var FIXTURES = [
-  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "AVL", away: "BRE", venue: "Villa Park" },
-  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "CHE", away: "BOU", venue: "Stamford Bridge" },
-  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "IPS", away: "FUL", venue: "Portman Road" },
-  { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "SUN", away: "BHA", venue: "Stadium of Light" },
-  { gw: 6, kickoff: "2026-10-10T16:30:00Z", home: "MUN", away: "TOT", venue: "Old Trafford", featured: true },
+  { gw: 6, kickoff: "2026-10-10T16:30:00Z", home: "MUN", away: "TOT", venue: "Old Trafford", featured: true, live: true, hs: 1, as: 1, clock: "90+8'00" },
   { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "CRY", away: "NFO", venue: "Selhurst Park" },
   { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "HUL", away: "EVE", venue: "The MKM Stadium" },
   { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", venue: "Anfield", featured: true },
@@ -385,9 +386,9 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "pW4Mi7w8aRw", title: "阿仙奴 vs 列斯聯-傑出阿仙奴Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T13:53:41Z" },
   { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T07:59:57Z" },
   { id: "UBF0i-TsE0E", title: "曼聯 vs 熱刺-文傑講波經Youtube Live聲音直播球迷交流 11/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T07:52:41Z" },
-  { id: "pW4Mi7w8aRw", title: "阿仙奴 vs 列斯聯-傑出阿仙奴Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T07:24:11Z" },
   { id: "JvwmASSu-6Q", title: "（6）再爆有其他違規？ / 踢出英超不止是英超問題-文傑講波經10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T17:14:56Z" },
   { id: "Y3yEf6mdS4I", title: "紐卡素. 沙特朝代第一個5年隱藏揭秘-文傑講波經09/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T16:04:37Z" },
   { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
@@ -399,14 +400,14 @@ var VIDEOS = [
   { id: "jeb6keg4zZQ", title: "(1)114-曼城-文傑講波經26/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-26T12:53:01Z" },
 ];
 var ASSISTS = [
+  { n: "Pascal Groß", t: "BHA", v: 4 },
   { n: "Evanilson", t: "BOU", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
-  { n: "Pascal Groß", t: "BHA", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
+  { n: "Cole Palmer", t: "CHE", v: 3 },
   { n: "Declan Rice", t: "ARS", v: 3 },
   { n: "Antoine Semenyo", t: "MCI", v: 3 },
   { n: "Harvey Barnes", t: "NEW", v: 2 },
   { n: "Mohamed Belloumi", t: "HUL", v: 2 },
-  { n: "Riccardo Calafiori", t: "ARS", v: 2 },
 ];
