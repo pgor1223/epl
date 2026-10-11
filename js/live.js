@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-11 09:47 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-11 09:47", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-11 23:33 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-11 23:33", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -57,10 +57,10 @@ var RESULTS = [
   { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "IPS", away: "FUL", hs: 2, as: 1, venue: "Portman Road", att: 29445, goals: [ { p: "Ryan Sessegnon", t: "FUL", min: "55" }, { p: "Abdoul Ouattara", t: "IPS", min: "88" }, { p: "Dara O'Shea", t: "IPS", min: "90+1" } ] },
   { gw: 6, kickoff: "2026-10-10T14:00:00Z", home: "SUN", away: "BHA", hs: 0, as: 2, venue: "Stadium of Light", att: 47196, goals: [ { p: "Maxim De Cuyper", t: "BHA", min: "53" }, { p: "Jaouen Hadjam", t: "BHA", min: "90+3" } ] },
   { gw: 6, kickoff: "2026-10-10T16:30:00Z", home: "MUN", away: "TOT", hs: 1, as: 1, venue: "Old Trafford", att: 74129, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "73" }, { p: "Dominic Solanke", t: "TOT", min: "90+2" } ] },
+  { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "CRY", away: "NFO", hs: 3, as: 1, venue: "Selhurst Park", att: null, goals: [ { p: "Dan Ndoye", t: "NFO", min: "3" }, { p: "Daichi Kamada", t: "CRY", min: "41" }, { p: "Jefferson Lerma", t: "CRY", min: "45+4" }, { p: "Yéremy Pino", t: "CRY", min: "59" } ] },
+  { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "HUL", away: "EVE", hs: 2, as: 2, venue: "The MKM Stadium", att: 24458, goals: [ { p: "Joe Gelhardt", t: "HUL", min: "48" }, { p: "Kiernan Dewsbury-Hall", t: "EVE", min: "55" }, { p: "Thierno Barry", t: "EVE", min: "68" }, { p: "Mohamed Belloumi", t: "HUL", min: "74" } ] },
 ];
 var FIXTURES = [
-  { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "CRY", away: "NFO", venue: "Selhurst Park" },
-  { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "HUL", away: "EVE", venue: "The MKM Stadium" },
   { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", venue: "Anfield", featured: true },
   { gw: 6, kickoff: "2026-10-12T19:00:00Z", home: "COV", away: "NEW", venue: "Coventry Building Society Arena" },
   { gw: 7, kickoff: "2026-10-17T11:30:00Z", home: "EVE", away: "CHE", venue: "Hill Dickinson Stadium" },
