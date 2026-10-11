@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-11 23:33 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-11 23:33", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-12 04:10 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-12 04:10", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -59,9 +59,9 @@ var RESULTS = [
   { gw: 6, kickoff: "2026-10-10T16:30:00Z", home: "MUN", away: "TOT", hs: 1, as: 1, venue: "Old Trafford", att: 74129, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "73" }, { p: "Dominic Solanke", t: "TOT", min: "90+2" } ] },
   { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "CRY", away: "NFO", hs: 3, as: 1, venue: "Selhurst Park", att: null, goals: [ { p: "Dan Ndoye", t: "NFO", min: "3" }, { p: "Daichi Kamada", t: "CRY", min: "41" }, { p: "Jefferson Lerma", t: "CRY", min: "45+4" }, { p: "Yéremy Pino", t: "CRY", min: "59" } ] },
   { gw: 6, kickoff: "2026-10-11T13:00:00Z", home: "HUL", away: "EVE", hs: 2, as: 2, venue: "The MKM Stadium", att: 24458, goals: [ { p: "Joe Gelhardt", t: "HUL", min: "48" }, { p: "Kiernan Dewsbury-Hall", t: "EVE", min: "55" }, { p: "Thierno Barry", t: "EVE", min: "68" }, { p: "Mohamed Belloumi", t: "HUL", min: "74" } ] },
+  { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", hs: 0, as: 3, venue: "Anfield", att: null, goals: [ { p: "Erling Haaland", t: "MCI", min: "65" }, { p: "Jérémy Doku", t: "MCI", min: "68" }, { p: "Rayan Cherki", t: "MCI", min: "78" } ] },
 ];
 var FIXTURES = [
-  { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", venue: "Anfield", featured: true },
   { gw: 6, kickoff: "2026-10-12T19:00:00Z", home: "COV", away: "NEW", venue: "Coventry Building Society Arena" },
   { gw: 7, kickoff: "2026-10-17T11:30:00Z", home: "EVE", away: "CHE", venue: "Hill Dickinson Stadium" },
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", venue: "Gtech Community Stadium" },
@@ -385,9 +385,9 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-11T17:46:05Z" },
   { id: "UBF0i-TsE0E", title: "曼聯 vs 熱刺-文傑講波經Youtube Live聲音直播球迷交流 11/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T18:48:51Z" },
   { id: "pW4Mi7w8aRw", title: "阿仙奴 vs 列斯聯-傑出阿仙奴Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T13:53:41Z" },
-  { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T07:59:57Z" },
   { id: "JvwmASSu-6Q", title: "（6）再爆有其他違規？ / 踢出英超不止是英超問題-文傑講波經10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T17:14:56Z" },
   { id: "Y3yEf6mdS4I", title: "紐卡素. 沙特朝代第一個5年隱藏揭秘-文傑講波經09/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T16:04:37Z" },
   { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
@@ -402,11 +402,11 @@ var ASSISTS = [
   { n: "Pascal Groß", t: "BHA", v: 4 },
   { n: "Evanilson", t: "BOU", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
+  { n: "Josko Gvardiol", t: "MCI", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
   { n: "Cole Palmer", t: "CHE", v: 3 },
   { n: "Declan Rice", t: "ARS", v: 3 },
   { n: "Antoine Semenyo", t: "MCI", v: 3 },
   { n: "Harvey Barnes", t: "NEW", v: 2 },
-  { n: "Mohamed Belloumi", t: "HUL", v: 2 },
 ];
