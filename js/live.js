@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-17 01:19 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-17 01:19", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-17 04:56 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-17 04:56", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "VGzDdejBDCU", title: "歐戰風雲26/27-曼城2:4巴黎聖日耳門 / 各踢半場好波-文傑講波經16/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-16T18:05:33Z" },
   { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-11T17:46:05Z" },
   { id: "UBF0i-TsE0E", title: "曼聯 vs 熱刺-文傑講波經Youtube Live聲音直播球迷交流 11/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T18:48:51Z" },
   { id: "pW4Mi7w8aRw", title: "阿仙奴 vs 列斯聯-傑出阿仙奴Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T13:53:41Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "Y64Q-QdyenU", title: "(4)曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
   { id: "0jvQ90QtjME", title: "(3)驅逐-大佬出手最重判罰/ 球迷專題：財務規條只關照大球會￼-文傑講波經01/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-01T20:32:12Z" },
   { id: "GVw7QKWBlW8", title: "(2)英超官方聲明/曼城必將重罰 /點樣罰有數得計-文傑講波經30/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-29T20:43:29Z" },
-  { id: "jeb6keg4zZQ", title: "(1)114-曼城-文傑講波經26/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-26T12:53:01Z" },
 ];
 var ASSISTS = [
   { n: "Pascal Groß", t: "BHA", v: 4 },
