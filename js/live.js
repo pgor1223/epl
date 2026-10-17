@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 01:00 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-18 01:00", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 03:13 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-18 03:13", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -65,9 +65,9 @@ var RESULTS = [
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", hs: 1, as: 2, venue: "Gtech Community Stadium", att: null, goals: [ { p: "Keane Lewis-Potter", t: "BRE", min: "44" }, { p: "Víctor Muñoz", t: "LIV", min: "62" }, { p: "Alexander Isak", t: "LIV", min: "70" } ] },
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "FUL", away: "HUL", hs: 1, as: 0, venue: "Craven Cottage", att: null, goals: [ { p: "Alex Iwobi", t: "FUL", min: "33" } ] },
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "MCI", away: "IPS", hs: 3, as: 2, venue: "Etihad Stadium", att: 60817, goals: [ { p: "Phil Foden", t: "MCI", min: "19" }, { p: "Daizen Maeda", t: "IPS", min: "21" }, { p: "Erling Haaland", t: "MCI", min: "34" }, { p: "Erling Haaland", t: "MCI", min: "69" }, { p: "Zian Flemming", t: "IPS", min: "90", pen: true } ] },
+  { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", hs: 0, as: 1, venue: "St. James' Park", att: 52626, goals: [ { p: "Johan Manzambi", t: "AVL", min: "36" } ] },
 ];
 var FIXTURES = [
-  { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", venue: "St. James' Park", live: true, hs: 0, as: 0, clock: "29'00" },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BHA", away: "CRY", venue: "American Express Stadium", featured: true },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", venue: "Vitality Stadium" },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", venue: "Elland Road" },
