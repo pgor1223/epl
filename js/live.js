@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-17 21:37 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-17 21:37", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 01:00 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-18 01:00", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -62,12 +62,12 @@ var RESULTS = [
   { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", hs: 0, as: 3, venue: "Anfield", att: 60338, goals: [ { p: "Erling Haaland", t: "MCI", min: "65" }, { p: "Jérémy Doku", t: "MCI", min: "68" }, { p: "Rayan Cherki", t: "MCI", min: "78" } ] },
   { gw: 6, kickoff: "2026-10-12T19:00:00Z", home: "COV", away: "NEW", hs: 4, as: 1, venue: "Coventry Building Society Arena", att: 30811, goals: [ { p: "Jack Rudoni", t: "COV", min: "6", pen: true }, { p: "Sidiki Cherif", t: "COV", min: "48" }, { p: "Sven Botman", t: "NEW", min: "70" }, { p: "Ellis Simms", t: "COV", min: "81" }, { p: "Stephen Mfuni", t: "COV", min: "86" } ] },
   { gw: 7, kickoff: "2026-10-17T11:30:00Z", home: "EVE", away: "CHE", hs: 0, as: 2, venue: "Hill Dickinson Stadium", att: 52271, goals: [ { p: "Pedro Neto", t: "CHE", min: "46" }, { p: "Pedro Neto", t: "CHE", min: "90" } ] },
+  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", hs: 1, as: 2, venue: "Gtech Community Stadium", att: null, goals: [ { p: "Keane Lewis-Potter", t: "BRE", min: "44" }, { p: "Víctor Muñoz", t: "LIV", min: "62" }, { p: "Alexander Isak", t: "LIV", min: "70" } ] },
+  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "FUL", away: "HUL", hs: 1, as: 0, venue: "Craven Cottage", att: null, goals: [ { p: "Alex Iwobi", t: "FUL", min: "33" } ] },
+  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "MCI", away: "IPS", hs: 3, as: 2, venue: "Etihad Stadium", att: 60817, goals: [ { p: "Phil Foden", t: "MCI", min: "19" }, { p: "Daizen Maeda", t: "IPS", min: "21" }, { p: "Erling Haaland", t: "MCI", min: "34" }, { p: "Erling Haaland", t: "MCI", min: "69" }, { p: "Zian Flemming", t: "IPS", min: "90", pen: true } ] },
 ];
 var FIXTURES = [
-  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", venue: "Gtech Community Stadium" },
-  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "FUL", away: "HUL", venue: "Craven Cottage" },
-  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "MCI", away: "IPS", venue: "Etihad Stadium" },
-  { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", venue: "St. James' Park" },
+  { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", venue: "St. James' Park", live: true, hs: 0, as: 0, clock: "29'00" },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BHA", away: "CRY", venue: "American Express Stadium", featured: true },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", venue: "Vitality Stadium" },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", venue: "Elland Road" },
