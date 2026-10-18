@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 03:13 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-18 03:13", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 18:53 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-18 18:53", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -62,8 +62,8 @@ var RESULTS = [
   { gw: 6, kickoff: "2026-10-11T15:30:00Z", home: "LIV", away: "MCI", hs: 0, as: 3, venue: "Anfield", att: 60338, goals: [ { p: "Erling Haaland", t: "MCI", min: "65" }, { p: "Jérémy Doku", t: "MCI", min: "68" }, { p: "Rayan Cherki", t: "MCI", min: "78" } ] },
   { gw: 6, kickoff: "2026-10-12T19:00:00Z", home: "COV", away: "NEW", hs: 4, as: 1, venue: "Coventry Building Society Arena", att: 30811, goals: [ { p: "Jack Rudoni", t: "COV", min: "6", pen: true }, { p: "Sidiki Cherif", t: "COV", min: "48" }, { p: "Sven Botman", t: "NEW", min: "70" }, { p: "Ellis Simms", t: "COV", min: "81" }, { p: "Stephen Mfuni", t: "COV", min: "86" } ] },
   { gw: 7, kickoff: "2026-10-17T11:30:00Z", home: "EVE", away: "CHE", hs: 0, as: 2, venue: "Hill Dickinson Stadium", att: 52271, goals: [ { p: "Pedro Neto", t: "CHE", min: "46" }, { p: "Pedro Neto", t: "CHE", min: "90" } ] },
-  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", hs: 1, as: 2, venue: "Gtech Community Stadium", att: null, goals: [ { p: "Keane Lewis-Potter", t: "BRE", min: "44" }, { p: "Víctor Muñoz", t: "LIV", min: "62" }, { p: "Alexander Isak", t: "LIV", min: "70" } ] },
-  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "FUL", away: "HUL", hs: 1, as: 0, venue: "Craven Cottage", att: null, goals: [ { p: "Alex Iwobi", t: "FUL", min: "33" } ] },
+  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "BRE", away: "LIV", hs: 1, as: 2, venue: "Gtech Community Stadium", att: 17232, goals: [ { p: "Keane Lewis-Potter", t: "BRE", min: "44" }, { p: "Víctor Muñoz", t: "LIV", min: "62" }, { p: "Alexander Isak", t: "LIV", min: "70" } ] },
+  { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "FUL", away: "HUL", hs: 1, as: 0, venue: "Craven Cottage", att: 27531, goals: [ { p: "Alex Iwobi", t: "FUL", min: "33" } ] },
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "MCI", away: "IPS", hs: 3, as: 2, venue: "Etihad Stadium", att: 60817, goals: [ { p: "Phil Foden", t: "MCI", min: "19" }, { p: "Daizen Maeda", t: "IPS", min: "21" }, { p: "Erling Haaland", t: "MCI", min: "34" }, { p: "Erling Haaland", t: "MCI", min: "69" }, { p: "Zian Flemming", t: "IPS", min: "90", pen: true } ] },
   { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", hs: 0, as: 1, venue: "St. James' Park", att: 52626, goals: [ { p: "Johan Manzambi", t: "AVL", min: "36" } ] },
 ];
@@ -385,6 +385,8 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "MTa-HWcQcLc", title: "諾定咸森林 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T09:07:04Z" },
+  { id: "S8GcXzo8MjU", title: "列斯聯 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T09:01:58Z" },
   { id: "VGzDdejBDCU", title: "歐戰風雲26/27-曼城2:4巴黎聖日耳門 / 各踢半場好波-文傑講波經16/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-16T18:05:33Z" },
   { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-11T17:46:05Z" },
   { id: "UBF0i-TsE0E", title: "曼聯 vs 熱刺-文傑講波經Youtube Live聲音直播球迷交流 11/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T18:48:51Z" },
@@ -395,8 +397,6 @@ var VIDEOS = [
   { id: "gJGwIoZR1T8", title: "曼聯進攻. 禍「福」難料-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T17:25:52Z" },
   { id: "FiNY01YZ3dE", title: "(5)紅魔鬼想追數 / 曼城114. 伊蒂哈德反擊戰-文傑講波經03/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-03T17:00:55Z" },
   { id: "Y64Q-QdyenU", title: "(4)曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
-  { id: "0jvQ90QtjME", title: "(3)驅逐-大佬出手最重判罰/ 球迷專題：財務規條只關照大球會￼-文傑講波經01/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-01T20:32:12Z" },
-  { id: "GVw7QKWBlW8", title: "(2)英超官方聲明/曼城必將重罰 /點樣罰有數得計-文傑講波經30/09/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-09-29T20:43:29Z" },
 ];
 var ASSISTS = [
   { n: "Pascal Groß", t: "BHA", v: 4 },
