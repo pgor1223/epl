@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-19 02:00 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-19 02:00", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-19 04:31 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-19 04:31", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -67,7 +67,7 @@ var RESULTS = [
   { gw: 7, kickoff: "2026-10-17T14:00:00Z", home: "MCI", away: "IPS", hs: 3, as: 2, venue: "Etihad Stadium", att: 60817, goals: [ { p: "Phil Foden", t: "MCI", min: "19" }, { p: "Daizen Maeda", t: "IPS", min: "21" }, { p: "Erling Haaland", t: "MCI", min: "34" }, { p: "Erling Haaland", t: "MCI", min: "69" }, { p: "Zian Flemming", t: "IPS", min: "90", pen: true } ] },
   { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", hs: 0, as: 1, venue: "St. James' Park", att: 52626, goals: [ { p: "Johan Manzambi", t: "AVL", min: "36" } ] },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BHA", away: "CRY", hs: 5, as: 0, venue: "American Express Stadium", att: 31440, goals: [ { p: "Jaydee Canvot", t: "CRY", min: "4", og: true }, { p: "Diego Gómez", t: "BHA", min: "7" }, { p: "Yasin Ayari", t: "BHA", min: "10" }, { p: "Charalampos Kostoulas", t: "BHA", min: "49" }, { p: "Jack Hinshelwood", t: "BHA", min: "84" } ] },
-  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", hs: 2, as: 0, venue: "Vitality Stadium", att: 12004, goals: [ { p: "Marcus Tavernier", t: "BOU", min: "6" }, { p: "Evanilson", t: "BOU", min: "48" } ] },
+  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", hs: 2, as: 0, venue: "Vitality Stadium", att: 12004, goals: [ { p: "Marcus Tavernier", t: "BOU", min: "5" }, { p: "Evanilson", t: "BOU", min: "48" } ] },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", hs: 1, as: 1, venue: "Elland Road", att: 36983, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "35" }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "51" } ] },
   { gw: 7, kickoff: "2026-10-18T15:30:00Z", home: "NFO", away: "ARS", hs: 0, as: 1, venue: "The City Ground", att: 30893, goals: [ { p: "Noni Madueke", t: "ARS", min: "80" } ] },
 ];
