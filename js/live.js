@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 18:53 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-18 18:53", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-18 22:29 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-18 22:29", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -68,9 +68,9 @@ var RESULTS = [
   { gw: 7, kickoff: "2026-10-17T16:30:00Z", home: "NEW", away: "AVL", hs: 0, as: 1, venue: "St. James' Park", att: 52626, goals: [ { p: "Johan Manzambi", t: "AVL", min: "36" } ] },
 ];
 var FIXTURES = [
-  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BHA", away: "CRY", venue: "American Express Stadium", featured: true },
-  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", venue: "Vitality Stadium" },
-  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", venue: "Elland Road" },
+  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BHA", away: "CRY", venue: "American Express Stadium", featured: true, live: true, hs: 4, as: 0, clock: "70'00" },
+  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", venue: "Vitality Stadium", live: true, hs: 2, as: 0, clock: "67'00" },
+  { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", venue: "Elland Road", live: true, hs: 1, as: 1, clock: "70'00" },
   { gw: 7, kickoff: "2026-10-18T15:30:00Z", home: "NFO", away: "ARS", venue: "The City Ground" },
   { gw: 7, kickoff: "2026-10-19T19:00:00Z", home: "TOT", away: "COV", venue: "Tottenham Hotspur Stadium" },
   { gw: 8, kickoff: "2026-10-23T19:00:00Z", home: "IPS", away: "NFO", venue: "Portman Road" },
@@ -399,8 +399,8 @@ var VIDEOS = [
   { id: "Y64Q-QdyenU", title: "(4)曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
 ];
 var ASSISTS = [
+  { n: "Evanilson", t: "BOU", v: 4 },
   { n: "Pascal Groß", t: "BHA", v: 4 },
-  { n: "Evanilson", t: "BOU", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
   { n: "Josko Gvardiol", t: "MCI", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
