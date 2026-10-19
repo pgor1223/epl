@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-19 04:31 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-19 04:31", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-19 20:57 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-19 20:57", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "W-nKqA8fAf4", title: "諾定咸森林0:1阿仙奴 / 神秘幕後人物/雲加不要去-傑出阿仙奴19/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-19T12:39:25Z" },
   { id: "MTa-HWcQcLc", title: "諾定咸森林 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T17:47:10Z" },
   { id: "S8GcXzo8MjU", title: "列斯聯 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T15:01:43Z" },
   { id: "VGzDdejBDCU", title: "歐戰風雲26/27-曼城2:4巴黎聖日耳門 / 各踢半場好波-文傑講波經16/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-16T18:05:33Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
   { id: "gJGwIoZR1T8", title: "曼聯進攻. 禍「福」難料-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T17:25:52Z" },
   { id: "FiNY01YZ3dE", title: "(5)紅魔鬼想追數 / 曼城114. 伊蒂哈德反擊戰-文傑講波經03/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-03T17:00:55Z" },
-  { id: "Y64Q-QdyenU", title: "(4)曼城準備反擊114 -文傑講波經02/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-02T16:30:23Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
