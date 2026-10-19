@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-20 03:14 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-20 03:14", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-20 07:32 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-20 07:32", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -70,9 +70,9 @@ var RESULTS = [
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "BOU", away: "SUN", hs: 2, as: 0, venue: "Vitality Stadium", att: 12004, goals: [ { p: "Marcus Tavernier", t: "BOU", min: "5" }, { p: "Evanilson", t: "BOU", min: "48" } ] },
   { gw: 7, kickoff: "2026-10-18T13:00:00Z", home: "LEE", away: "MUN", hs: 1, as: 1, venue: "Elland Road", att: 36983, goals: [ { p: "Bryan Mbeumo", t: "MUN", min: "35" }, { p: "Dominic Calvert-Lewin", t: "LEE", min: "51" } ] },
   { gw: 7, kickoff: "2026-10-18T15:30:00Z", home: "NFO", away: "ARS", hs: 0, as: 1, venue: "The City Ground", att: 30893, goals: [ { p: "Noni Madueke", t: "ARS", min: "80" } ] },
+  { gw: 7, kickoff: "2026-10-19T19:00:00Z", home: "TOT", away: "COV", hs: 3, as: 1, venue: "Tottenham Hotspur Stadium", att: 60913, goals: [ { p: "James Maddison", t: "TOT", min: "14" }, { p: "Jack Rudoni", t: "COV", min: "49" }, { p: "Omar Marmoush", t: "TOT", min: "58" }, { p: "Ben Davies", t: "TOT", min: "90+6" } ] },
 ];
 var FIXTURES = [
-  { gw: 7, kickoff: "2026-10-19T19:00:00Z", home: "TOT", away: "COV", venue: "Tottenham Hotspur Stadium", live: true, hs: 0, as: 0, clock: "13'00" },
   { gw: 8, kickoff: "2026-10-23T19:00:00Z", home: "IPS", away: "NFO", venue: "Portman Road" },
   { gw: 8, kickoff: "2026-10-24T11:30:00Z", home: "AVL", away: "MCI", venue: "Villa Park" },
   { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "ARS", away: "EVE", venue: "Emirates Stadium" },
