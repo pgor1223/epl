@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-20 22:56 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-20 22:56", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-21 03:08 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-21 03:08", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "g6vdqQUwGjQ", title: "英足事件簿EP09-曼城扣分？/愛華頓賣盤-文傑講波經-20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T15:33:05Z" },
   { id: "xsE2R7ZjoFU", title: "注定阿迪達-傑出阿仙奴20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T13:25:49Z" },
   { id: "W-nKqA8fAf4", title: "諾定咸森林0:1阿仙奴 / 神秘幕後人物/雲加不要去-傑出阿仙奴19/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-19T12:39:25Z" },
   { id: "MTa-HWcQcLc", title: "諾定咸森林 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T17:47:10Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "JvwmASSu-6Q", title: "（6）再爆有其他違規？ / 踢出英超不止是英超問題-文傑講波經10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T17:14:56Z" },
   { id: "Y3yEf6mdS4I", title: "紐卡素. 沙特朝代第一個5年隱藏揭秘-文傑講波經09/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-09T16:04:37Z" },
   { id: "5pag_6ZGUnc", title: "數說Wirtz-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T20:09:38Z" },
-  { id: "gJGwIoZR1T8", title: "曼聯進攻. 禍「福」難料-文傑講波經05/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-04T17:25:52Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
