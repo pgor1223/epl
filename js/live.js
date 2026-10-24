@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-25 02:02 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-25 02:02", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-25 04:38 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-25 04:38", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -75,9 +75,9 @@ var RESULTS = [
   { gw: 8, kickoff: "2026-10-24T11:30:00Z", home: "AVL", away: "MCI", hs: 2, as: 1, venue: "Villa Park", att: 36743, goals: [ { p: "Nicolas Jackson", t: "AVL", min: "6" }, { p: "Erling Haaland", t: "MCI", min: "52" }, { p: "Nicolas Jackson", t: "AVL", min: "60" } ] },
   { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "ARS", away: "EVE", hs: 2, as: 0, venue: "Emirates Stadium", att: 60207, goals: [ { p: "Ezri Konsa", t: "ARS", min: "7" }, { p: "Gabriel Magalhães", t: "ARS", min: "68" } ] },
   { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "COV", away: "FUL", hs: 0, as: 1, venue: "Coventry Building Society Arena", att: 31449, goals: [ { p: "Oscar Bobb", t: "FUL", min: "80" } ] },
+  { gw: 8, kickoff: "2026-10-24T16:30:00Z", home: "CHE", away: "TOT", hs: 0, as: 2, venue: "Stamford Bridge", att: null, goals: [ { p: "Mike Penders", t: "CHE", min: "77", og: true }, { p: "Mathys Tel", t: "TOT", min: "87" } ] },
 ];
 var FIXTURES = [
-  { gw: 8, kickoff: "2026-10-24T16:30:00Z", home: "CHE", away: "TOT", venue: "Stamford Bridge", featured: true, live: true, hs: 0, as: 0, clock: "74'00" },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "CRY", away: "NEW", venue: "Selhurst Park" },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "HUL", away: "BRE", venue: "The MKM Stadium" },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", venue: "Anfield" },
@@ -385,9 +385,9 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T19:03:47Z" },
+  { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T18:31:07Z" },
   { id: "Ukb3sxOhxjU", title: "白禮頓.炙手可熱.瘋狂球隊.瘋狂數據-文傑講波經 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T09:45:56Z" },
-  { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T06:12:52Z" },
-  { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T06:09:05Z" },
   { id: "7_YgyIfGCro", title: "歐戰風雲26/27 -科木4:1曼聯-24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T20:02:58Z" },
   { id: "ZuA98aFujcs", title: "拜仁慕尼黑2:2阿仙奴-傑出阿仙奴23/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T18:10:14Z" },
   { id: "611cKtirF_4", title: "2026年10月23日", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-22T17:27:46Z" },
