@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-24 06:02 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-24 06:02", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-24 18:47 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-24 18:47", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,9 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "Ukb3sxOhxjU", title: "白禮頓.炙手可熱.瘋狂球隊.瘋狂數據-文傑講波經 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T09:45:56Z" },
+  { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T06:12:52Z" },
+  { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T06:09:05Z" },
   { id: "7_YgyIfGCro", title: "歐戰風雲26/27 -科木4:1曼聯-24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T20:02:58Z" },
   { id: "ZuA98aFujcs", title: "拜仁慕尼黑2:2阿仙奴-傑出阿仙奴23/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T18:10:14Z" },
   { id: "611cKtirF_4", title: "2026年10月23日", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-22T17:27:46Z" },
@@ -394,9 +397,6 @@ var VIDEOS = [
   { id: "W-nKqA8fAf4", title: "諾定咸森林0:1阿仙奴 / 神秘幕後人物/雲加不要去-傑出阿仙奴19/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-19T12:39:25Z" },
   { id: "MTa-HWcQcLc", title: "諾定咸森林 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T17:47:10Z" },
   { id: "S8GcXzo8MjU", title: "列斯聯 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 18/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-18T15:01:43Z" },
-  { id: "VGzDdejBDCU", title: "歐戰風雲26/27-曼城2:4巴黎聖日耳門 / 各踢半場好波-文傑講波經16/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-16T18:05:33Z" },
-  { id: "bptmYpdDaF0", title: "利物浦 vs 曼城-文傑講波經Youtube Live--聲音直播球迷交流 10/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-11T17:46:05Z" },
-  { id: "UBF0i-TsE0E", title: "曼聯 vs 熱刺-文傑講波經Youtube Live聲音直播球迷交流 11/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-10T18:48:51Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
