@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-24 18:47 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-24 18:47", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-24 22:25 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-24 22:25", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -72,11 +72,11 @@ var RESULTS = [
   { gw: 7, kickoff: "2026-10-18T15:30:00Z", home: "NFO", away: "ARS", hs: 0, as: 1, venue: "The City Ground", att: 30893, goals: [ { p: "Noni Madueke", t: "ARS", min: "80" } ] },
   { gw: 7, kickoff: "2026-10-19T19:00:00Z", home: "TOT", away: "COV", hs: 3, as: 1, venue: "Tottenham Hotspur Stadium", att: 60913, goals: [ { p: "James Maddison", t: "TOT", min: "14" }, { p: "Jack Rudoni", t: "COV", min: "49" }, { p: "Omar Marmoush", t: "TOT", min: "58" }, { p: "Ben Davies", t: "TOT", min: "90+6" } ] },
   { gw: 8, kickoff: "2026-10-23T19:00:00Z", home: "IPS", away: "NFO", hs: 1, as: 1, venue: "Portman Road", att: 29198, goals: [ { p: "Neco Williams", t: "NFO", min: "13" }, { p: "Julio Enciso", t: "IPS", min: "41" } ] },
+  { gw: 8, kickoff: "2026-10-24T11:30:00Z", home: "AVL", away: "MCI", hs: 2, as: 1, venue: "Villa Park", att: 36743, goals: [ { p: "Nicolas Jackson", t: "AVL", min: "6" }, { p: "Erling Haaland", t: "MCI", min: "52" }, { p: "Nicolas Jackson", t: "AVL", min: "60" } ] },
 ];
 var FIXTURES = [
-  { gw: 8, kickoff: "2026-10-24T11:30:00Z", home: "AVL", away: "MCI", venue: "Villa Park" },
-  { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "ARS", away: "EVE", venue: "Emirates Stadium" },
-  { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "COV", away: "FUL", venue: "Coventry Building Society Arena" },
+  { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "ARS", away: "EVE", venue: "Emirates Stadium", live: true, hs: 1, as: 0, clock: "25'00" },
+  { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "COV", away: "FUL", venue: "Coventry Building Society Arena", live: true, hs: 0, as: 0, clock: "25'00" },
   { gw: 8, kickoff: "2026-10-24T16:30:00Z", home: "CHE", away: "TOT", venue: "Stamford Bridge", featured: true },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "CRY", away: "NEW", venue: "Selhurst Park" },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "HUL", away: "BRE", venue: "The MKM Stadium" },
@@ -406,7 +406,7 @@ var ASSISTS = [
   { n: "Josko Gvardiol", t: "MCI", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
+  { n: "John McGinn", t: "AVL", v: 3 },
+  { n: "Iliman Ndiaye", t: "MCI", v: 3 },
   { n: "Cole Palmer", t: "CHE", v: 3 },
-  { n: "Antoine Semenyo", t: "MCI", v: 3 },
-  { n: "Harvey Barnes", t: "NEW", v: 2 },
 ];
