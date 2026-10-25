@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-26 00:00 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-26 00:00", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-26 02:54 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-26 02:54", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -80,12 +80,9 @@ var RESULTS = [
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "HUL", away: "BRE", hs: 1, as: 1, venue: "The MKM Stadium", att: 24259, goals: [ { p: "Oliver McBurnie", t: "HUL", min: "24", pen: true }, { p: "Dango Ouattara", t: "BRE", min: "63" } ] },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", hs: 2, as: 0, venue: "Anfield", att: null, goals: [ { p: "Pascal Groß", t: "BHA", min: "17", og: true }, { p: "Alexander Isak", t: "LIV", min: "21" } ] },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "MUN", away: "BOU", hs: 0, as: 3, venue: "Old Trafford", att: null, goals: [ { p: "Rayan", t: "BOU", min: "38" }, { p: "Marcus Tavernier", t: "BOU", min: "43" }, { p: "Evanilson", t: "BOU", min: "71" } ] },
+  { gw: 8, kickoff: "2026-10-25T16:30:00Z", home: "SUN", away: "LEE", hs: 0, as: 0, venue: "Stadium of Light", att: 46182, goals: [  ] },
 ];
 var FIXTURES = [
-  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "CRY", away: "NEW", venue: "Selhurst Park", live: true, hs: 0, as: 2, clock: "90+5'00" },
-  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", venue: "Anfield", live: true, hs: 2, as: 0, clock: "90+2'00" },
-  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "MUN", away: "BOU", venue: "Old Trafford", live: true, hs: 0, as: 3, clock: "90+3'00" },
-  { gw: 8, kickoff: "2026-10-25T16:30:00Z", home: "SUN", away: "LEE", venue: "Stadium of Light" },
   { gw: 9, kickoff: "2026-10-31T12:30:00Z", home: "CHE", away: "MUN", venue: "Stamford Bridge", featured: true },
   { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BOU", away: "LEE", venue: "Vitality Stadium" },
   { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BRE", away: "NFO", venue: "Gtech Community Stadium" },
@@ -182,6 +179,9 @@ var FIXTURES = [
   { gw: 18, kickoff: "2026-12-30T19:30:00Z", home: "COV", away: "BRE", venue: "Coventry Building Society Arena" },
   { gw: 18, kickoff: "2026-12-30T19:30:00Z", home: "CRY", away: "BOU", venue: "Selhurst Park" },
   { gw: 18, kickoff: "2026-12-30T19:30:00Z", home: "FUL", away: "ARS", venue: "Craven Cottage" },
+  { gw: 18, kickoff: "2026-12-30T19:30:00Z", home: "MUN", away: "SUN", venue: "Old Trafford" },
+  { gw: 18, kickoff: "2026-12-30T19:30:00Z", home: "NEW", away: "NFO", venue: "St. James' Park" },
+  { gw: 18, kickoff: "2026-12-30T20:15:00Z", home: "AVL", away: "LIV", venue: "Villa Park" },
   { gw: 18, kickoff: "2026-12-30T20:15:00Z", home: "IPS", away: "CHE", venue: "Portman Road" },
   { gw: 19, kickoff: "2027-01-01T20:00:00Z", home: "LEE", away: "EVE", venue: "Elland Road" },
   { gw: 19, kickoff: "2027-01-02T12:30:00Z", home: "BHA", away: "MUN", venue: "American Express Stadium" },
