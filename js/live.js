@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-26 02:54 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-26 02:54", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-26 08:07 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-26 08:07", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -76,9 +76,9 @@ var RESULTS = [
   { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "ARS", away: "EVE", hs: 2, as: 0, venue: "Emirates Stadium", att: 60207, goals: [ { p: "Ezri Konsa", t: "ARS", min: "7" }, { p: "Gabriel Magalhães", t: "ARS", min: "68" } ] },
   { gw: 8, kickoff: "2026-10-24T14:00:00Z", home: "COV", away: "FUL", hs: 0, as: 1, venue: "Coventry Building Society Arena", att: 31449, goals: [ { p: "Oscar Bobb", t: "FUL", min: "80" } ] },
   { gw: 8, kickoff: "2026-10-24T16:30:00Z", home: "CHE", away: "TOT", hs: 0, as: 2, venue: "Stamford Bridge", att: null, goals: [ { p: "Mike Penders", t: "CHE", min: "77", og: true }, { p: "Mathys Tel", t: "TOT", min: "87" } ] },
-  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "CRY", away: "NEW", hs: 0, as: 2, venue: "Selhurst Park", att: null, goals: [ { p: "William Osula", t: "NEW", min: "47" }, { p: "Harvey Barnes", t: "NEW", min: "58" } ] },
+  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "CRY", away: "NEW", hs: 0, as: 2, venue: "Selhurst Park", att: 25018, goals: [ { p: "William Osula", t: "NEW", min: "47" }, { p: "Harvey Barnes", t: "NEW", min: "58" } ] },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "HUL", away: "BRE", hs: 1, as: 1, venue: "The MKM Stadium", att: 24259, goals: [ { p: "Oliver McBurnie", t: "HUL", min: "24", pen: true }, { p: "Dango Ouattara", t: "BRE", min: "63" } ] },
-  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", hs: 2, as: 0, venue: "Anfield", att: null, goals: [ { p: "Pascal Groß", t: "BHA", min: "17", og: true }, { p: "Alexander Isak", t: "LIV", min: "21" } ] },
+  { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", hs: 2, as: 0, venue: "Anfield", att: 60404, goals: [ { p: "Pascal Groß", t: "BHA", min: "17", og: true }, { p: "Alexander Isak", t: "LIV", min: "21" } ] },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "MUN", away: "BOU", hs: 0, as: 3, venue: "Old Trafford", att: null, goals: [ { p: "Rayan", t: "BOU", min: "38" }, { p: "Marcus Tavernier", t: "BOU", min: "43" }, { p: "Evanilson", t: "BOU", min: "71" } ] },
   { gw: 8, kickoff: "2026-10-25T16:30:00Z", home: "SUN", away: "LEE", hs: 0, as: 0, venue: "Stadium of Light", att: 46182, goals: [  ] },
 ];
