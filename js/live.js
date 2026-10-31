@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-31 21:34 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-31 21:34", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-01 02:27 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-01 02:27", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -81,15 +81,15 @@ var RESULTS = [
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "LIV", away: "BHA", hs: 2, as: 0, venue: "Anfield", att: 60404, goals: [ { p: "Pascal Groß", t: "BHA", min: "17", og: true }, { p: "Alexander Isak", t: "LIV", min: "21" } ] },
   { gw: 8, kickoff: "2026-10-25T14:00:00Z", home: "MUN", away: "BOU", hs: 0, as: 3, venue: "Old Trafford", att: null, goals: [ { p: "Rayan", t: "BOU", min: "38" }, { p: "Marcus Tavernier", t: "BOU", min: "43" }, { p: "Evanilson", t: "BOU", min: "71" } ] },
   { gw: 8, kickoff: "2026-10-25T16:30:00Z", home: "SUN", away: "LEE", hs: 0, as: 0, venue: "Stadium of Light", att: 46182, goals: [  ] },
+  { gw: 9, kickoff: "2026-10-31T12:30:00Z", home: "CHE", away: "MUN", hs: 2, as: 0, venue: "Stamford Bridge", att: null, goals: [ { p: "Morgan Rogers", t: "CHE", min: "50" }, { p: "Cole Palmer", t: "CHE", min: "64", pen: true } ] },
+  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BOU", away: "LEE", hs: 2, as: 0, venue: "Vitality Stadium", att: 12041, goals: [ { p: "Evanilson", t: "BOU", min: "31" }, { p: "Amine Adli", t: "BOU", min: "90+4" } ] },
+  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BRE", away: "NFO", hs: 2, as: 0, venue: "Gtech Community Stadium", att: 17108, goals: [ { p: "Nikola Milenkovic", t: "NFO", min: "30", og: true }, { p: "Igor Thiago", t: "BRE", min: "76" } ] },
+  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "COV", away: "SUN", hs: 3, as: 1, venue: "Coventry Building Society Arena", att: 31455, goals: [ { p: "Tatsuhiro Sakamoto", t: "COV", min: "17" }, { p: "Taiwo Awoniyi", t: "COV", min: "37" }, { p: "Jack Rudoni", t: "COV", min: "52" }, { p: "Enzo Le Fée", t: "SUN", min: "67", pen: true } ] },
+  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "HUL", away: "IPS", hs: 2, as: 2, venue: "The MKM Stadium", att: 24459, goals: [ { p: "Florentino", t: "IPS", min: "22" }, { p: "Tim Iroegbunam", t: "HUL", min: "58" }, { p: "Oliver McBurnie", t: "HUL", min: "68" }, { p: "Julio Enciso", t: "IPS", min: "74" } ] },
+  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "MCI", away: "BHA", hs: 0, as: 1, venue: "Etihad Stadium", att: null, goals: [ { p: "Yasin Ayari", t: "BHA", min: "11" } ] },
 ];
 var FIXTURES = [
-  { gw: 9, kickoff: "2026-10-31T12:30:00Z", home: "CHE", away: "MUN", venue: "Stamford Bridge", featured: true, live: true, hs: 0, as: 0, clock: "45+2'00" },
-  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BOU", away: "LEE", venue: "Vitality Stadium" },
-  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BRE", away: "NFO", venue: "Gtech Community Stadium" },
-  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "COV", away: "SUN", venue: "Coventry Building Society Arena" },
-  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "HUL", away: "IPS", venue: "The MKM Stadium" },
-  { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "MCI", away: "BHA", venue: "Etihad Stadium" },
-  { gw: 9, kickoff: "2026-10-31T17:30:00Z", home: "TOT", away: "CRY", venue: "Tottenham Hotspur Stadium" },
+  { gw: 9, kickoff: "2026-10-31T17:30:00Z", home: "TOT", away: "CRY", venue: "Tottenham Hotspur Stadium", live: true, hs: 1, as: 0, clock: "45+2'00" },
   { gw: 9, kickoff: "2026-10-31T20:00:00Z", home: "AVL", away: "FUL", venue: "Villa Park" },
   { gw: 9, kickoff: "2026-11-01T16:30:00Z", home: "LIV", away: "ARS", venue: "Anfield", featured: true },
   { gw: 9, kickoff: "2026-11-02T20:00:00Z", home: "NEW", away: "EVE", venue: "St. James' Park" },
@@ -385,7 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
-  { id: "H96XfEea1Ys", title: "車路士 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 31/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-31T10:14:10Z" },
+  { id: "H96XfEea1Ys", title: "車路士 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 31/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-31T15:50:01Z" },
   { id: "HkjqloWWd8c", title: "勵志Harry Kane，實至名歸！-文傑講波經27/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-27T10:32:34Z" },
   { id: "9-Ti44hhTT4", title: "如何叫曼聯參考阿仙奴之道-文傑講波經25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-25T11:45:40Z" },
   { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T19:03:47Z" },
@@ -402,11 +402,11 @@ var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
   { n: "Pascal Groß", t: "BHA", v: 4 },
   { n: "Declan Rice", t: "ARS", v: 4 },
+  { n: "Maxim De Cuyper", t: "BHA", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
   { n: "Josko Gvardiol", t: "MCI", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
+  { n: "Mohammed Kudus", t: "TOT", v: 3 },
   { n: "John McGinn", t: "AVL", v: 3 },
-  { n: "Iliman Ndiaye", t: "MCI", v: 3 },
-  { n: "Cole Palmer", t: "CHE", v: 3 },
 ];
