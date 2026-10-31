@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-27 22:21 (HKT) 產生。 */
-var LIVE = { updated: "2026-10-27 22:21", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-10-31 21:34 (HKT) 產生。 */
+var LIVE = { updated: "2026-10-31 21:34", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -83,7 +83,7 @@ var RESULTS = [
   { gw: 8, kickoff: "2026-10-25T16:30:00Z", home: "SUN", away: "LEE", hs: 0, as: 0, venue: "Stadium of Light", att: 46182, goals: [  ] },
 ];
 var FIXTURES = [
-  { gw: 9, kickoff: "2026-10-31T12:30:00Z", home: "CHE", away: "MUN", venue: "Stamford Bridge", featured: true },
+  { gw: 9, kickoff: "2026-10-31T12:30:00Z", home: "CHE", away: "MUN", venue: "Stamford Bridge", featured: true, live: true, hs: 0, as: 0, clock: "45+2'00" },
   { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BOU", away: "LEE", venue: "Vitality Stadium" },
   { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "BRE", away: "NFO", venue: "Gtech Community Stadium" },
   { gw: 9, kickoff: "2026-10-31T15:00:00Z", home: "COV", away: "SUN", venue: "Coventry Building Society Arena" },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "H96XfEea1Ys", title: "車路士 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 31/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-31T10:14:10Z" },
   { id: "HkjqloWWd8c", title: "勵志Harry Kane，實至名歸！-文傑講波經27/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-27T10:32:34Z" },
   { id: "9-Ti44hhTT4", title: "如何叫曼聯參考阿仙奴之道-文傑講波經25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-25T11:45:40Z" },
   { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T19:03:47Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "aWK8QNAxDK8", title: "死球 & 施根-傑出阿仙奴21/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-21T16:20:43Z" },
   { id: "g6vdqQUwGjQ", title: "英足事件簿EP09-曼城扣分？/愛華頓賣盤-文傑講波經-20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T15:33:05Z" },
   { id: "xsE2R7ZjoFU", title: "注定阿迪達-傑出阿仙奴20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T13:25:49Z" },
-  { id: "W-nKqA8fAf4", title: "諾定咸森林0:1阿仙奴 / 神秘幕後人物/雲加不要去-傑出阿仙奴19/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-19T12:39:25Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
