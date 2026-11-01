@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-01 17:07 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-01 17:07", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-02 00:45 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-02 00:45", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -91,7 +91,7 @@ var RESULTS = [
   { gw: 9, kickoff: "2026-10-31T20:00:00Z", home: "AVL", away: "FUL", hs: 1, as: 1, venue: "Villa Park", att: 34649, goals: [ { p: "Nicolas Jackson", t: "AVL", min: "39" }, { p: "Zion Suzuki", t: "AVL", min: "64", og: true } ] },
 ];
 var FIXTURES = [
-  { gw: 9, kickoff: "2026-11-01T16:30:00Z", home: "LIV", away: "ARS", venue: "Anfield", featured: true },
+  { gw: 9, kickoff: "2026-11-01T16:30:00Z", home: "LIV", away: "ARS", venue: "Anfield", featured: true, live: true, hs: 0, as: 0, clock: "11'00" },
   { gw: 9, kickoff: "2026-11-02T20:00:00Z", home: "NEW", away: "EVE", venue: "St. James' Park" },
   { gw: 10, kickoff: "2026-11-06T20:00:00Z", home: "EVE", away: "COV", venue: "Hill Dickinson Stadium" },
   { gw: 10, kickoff: "2026-11-07T12:30:00Z", home: "LEE", away: "TOT", venue: "Elland Road" },
