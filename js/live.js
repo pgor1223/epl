@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-01 10:05 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-01 10:05", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-01 17:07 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-01 17:07", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "FEA_MLwGQcQ", title: "利物浦 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 02/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-01T06:04:29Z" },
   { id: "H96XfEea1Ys", title: "車路士 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 31/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-31T15:50:01Z" },
   { id: "HkjqloWWd8c", title: "勵志Harry Kane，實至名歸！-文傑講波經27/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-27T10:32:34Z" },
   { id: "9-Ti44hhTT4", title: "如何叫曼聯參考阿仙奴之道-文傑講波經25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-25T11:45:40Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "611cKtirF_4", title: "2026年10月23日", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-22T17:27:46Z" },
   { id: "aWK8QNAxDK8", title: "死球 & 施根-傑出阿仙奴21/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-21T16:20:43Z" },
   { id: "g6vdqQUwGjQ", title: "英足事件簿EP09-曼城扣分？/愛華頓賣盤-文傑講波經-20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T15:33:05Z" },
-  { id: "xsE2R7ZjoFU", title: "注定阿迪達-傑出阿仙奴20/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-20T13:25:49Z" },
 ];
 var ASSISTS = [
   { n: "Evanilson", t: "BOU", v: 4 },
