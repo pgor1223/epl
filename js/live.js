@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-08 02:39 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-08 02:39", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-08 06:39 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-08 06:39", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -95,9 +95,9 @@ var RESULTS = [
   { gw: 10, kickoff: "2026-11-07T12:30:00Z", home: "LEE", away: "TOT", hs: 1, as: 0, venue: "Elland Road", att: 36924, goals: [ { p: "Noah Okafor", t: "LEE", min: "79" } ] },
   { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "ARS", away: "HUL", hs: 1, as: 0, venue: "Emirates Stadium", att: 60285, goals: [ { p: "Martin Ødegaard", t: "ARS", min: "72" } ] },
   { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "FUL", away: "NEW", hs: 1, as: 1, venue: "Craven Cottage", att: 27367, goals: [ { p: "Jacob Murphy", t: "NEW", min: "80" }, { p: "Rodrigo Muniz", t: "FUL", min: "83" } ] },
+  { gw: 10, kickoff: "2026-11-07T17:30:00Z", home: "NFO", away: "MCI", hs: 3, as: 1, venue: "The City Ground", att: 30762, goals: [ { p: "Jair Cunha", t: "NFO", min: "6" }, { p: "Liam Delap", t: "NFO", min: "18" }, { p: "Rayan Cherki", t: "MCI", min: "52" }, { p: "Liam Delap", t: "NFO", min: "73" } ] },
 ];
 var FIXTURES = [
-  { gw: 10, kickoff: "2026-11-07T17:30:00Z", home: "NFO", away: "MCI", venue: "The City Ground", live: true, hs: 2, as: 0, clock: "49'00" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "BHA", away: "BRE", venue: "American Express Stadium" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "CRY", away: "LIV", venue: "Selhurst Park" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "IPS", away: "BOU", venue: "Portman Road" },
@@ -404,9 +404,9 @@ var ASSISTS = [
   { n: "Pascal Groß", t: "BHA", v: 4 },
   { n: "Maxim De Cuyper", t: "BHA", v: 3 },
   { n: "Cody Gakpo", t: "LIV", v: 3 },
+  { n: "Morgan Gibbs-White", t: "NFO", v: 3 },
   { n: "Josko Gvardiol", t: "MCI", v: 3 },
   { n: "João Pedro", t: "CHE", v: 3 },
   { n: "Daichi Kamada", t: "CRY", v: 3 },
   { n: "Mohammed Kudus", t: "TOT", v: 3 },
-  { n: "Johan Manzambi", t: "AVL", v: 3 },
 ];
