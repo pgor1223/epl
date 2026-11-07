@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-07 21:54 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-07 21:54", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-08 02:39 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-08 02:39", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -92,12 +92,12 @@ var RESULTS = [
   { gw: 9, kickoff: "2026-11-01T16:30:00Z", home: "LIV", away: "ARS", hs: 0, as: 1, venue: "Anfield", att: 60406, goals: [ { p: "Kai Havertz", t: "ARS", min: "16" } ] },
   { gw: 9, kickoff: "2026-11-02T20:00:00Z", home: "NEW", away: "EVE", hs: 0, as: 1, venue: "St. James' Park", att: 52279, goals: [ { p: "Thierno Barry", t: "EVE", min: "49" } ] },
   { gw: 10, kickoff: "2026-11-06T20:00:00Z", home: "EVE", away: "COV", hs: 3, as: 1, venue: "Hill Dickinson Stadium", att: 52395, goals: [ { p: "Yann Gboho", t: "COV", min: "52" }, { p: "Thierno Barry", t: "EVE", min: "56" }, { p: "Thierno Barry", t: "EVE", min: "61" }, { p: "Kiernan Dewsbury-Hall", t: "EVE", min: "81" } ] },
+  { gw: 10, kickoff: "2026-11-07T12:30:00Z", home: "LEE", away: "TOT", hs: 1, as: 0, venue: "Elland Road", att: 36924, goals: [ { p: "Noah Okafor", t: "LEE", min: "79" } ] },
+  { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "ARS", away: "HUL", hs: 1, as: 0, venue: "Emirates Stadium", att: 60285, goals: [ { p: "Martin Ødegaard", t: "ARS", min: "72" } ] },
+  { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "FUL", away: "NEW", hs: 1, as: 1, venue: "Craven Cottage", att: 27367, goals: [ { p: "Jacob Murphy", t: "NEW", min: "80" }, { p: "Rodrigo Muniz", t: "FUL", min: "83" } ] },
 ];
 var FIXTURES = [
-  { gw: 10, kickoff: "2026-11-07T12:30:00Z", home: "LEE", away: "TOT", venue: "Elland Road", live: true, hs: 0, as: 0, clock: "62'00" },
-  { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "ARS", away: "HUL", venue: "Emirates Stadium" },
-  { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "FUL", away: "NEW", venue: "Craven Cottage" },
-  { gw: 10, kickoff: "2026-11-07T17:30:00Z", home: "NFO", away: "MCI", venue: "The City Ground" },
+  { gw: 10, kickoff: "2026-11-07T17:30:00Z", home: "NFO", away: "MCI", venue: "The City Ground", live: true, hs: 2, as: 0, clock: "49'00" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "BHA", away: "BRE", venue: "American Express Stadium" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "CRY", away: "LIV", venue: "Selhurst Park" },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "IPS", away: "BOU", venue: "Portman Road" },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "ygfwJQEEXUo", title: "阿仙奴 vs 侯城-傑出阿仙奴Youtube Live--聲音直播球迷交流 07/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-07T17:51:44Z" },
   { id: "Xm2MQtEf_fU", title: "C 7國家隊謝幕-文傑講波經06/11/26 #廣東話 #足球評論 #袁文傑 # C朗", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-06T13:25:25Z" },
   { id: "npoFn7hIhbg", title: "西乙前鋒陣亡事件 / 其他陣亡事件 / 不是殺人犯-文傑講波經04/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-04T13:46:39Z" },
   { id: "-YcjU0GUvuk", title: "利物浦0:1阿仙奴 / 阿仙奴已打下阿迪達烙印/ 利物浦～般尼茅夫化-傑出阿仙奴&文傑講波經 02/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-02T15:45:26Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T18:31:07Z" },
   { id: "Ukb3sxOhxjU", title: "白禮頓.炙手可熱.瘋狂球隊.瘋狂數據-文傑講波經 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T09:45:56Z" },
   { id: "7_YgyIfGCro", title: "歐戰風雲26/27 -科木4:1曼聯-24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T20:02:58Z" },
-  { id: "ZuA98aFujcs", title: "拜仁慕尼黑2:2阿仙奴-傑出阿仙奴23/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T18:10:14Z" },
 ];
 var ASSISTS = [
   { n: "Declan Rice", t: "ARS", v: 5 },
