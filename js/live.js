@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-09 00:59 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-09 00:59", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-09 05:03 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-09 05:03", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -100,9 +100,9 @@ var RESULTS = [
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "CRY", away: "LIV", hs: 1, as: 3, venue: "Selhurst Park", att: null, goals: [ { p: "Alexis Mac Allister", t: "LIV", min: "40" }, { p: "Florian Wirtz", t: "LIV", min: "54" }, { p: "Alexander Isak", t: "LIV", min: "89" }, { p: "Eddie Nketiah", t: "CRY", min: "90+5", pen: true } ] },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "IPS", away: "BOU", hs: 1, as: 2, venue: "Portman Road", att: 29396, goals: [ { p: "Evanilson", t: "BOU", min: "5" }, { p: "Leif Davis", t: "IPS", min: "46", og: true }, { p: "Jack Clarke", t: "IPS", min: "73", pen: true } ] },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "SUN", away: "CHE", hs: 1, as: 0, venue: "Stadium of Light", att: null, goals: [ { p: "Enzo Le Fée", t: "SUN", min: "36", pen: true } ] },
+  { gw: 10, kickoff: "2026-11-08T16:30:00Z", home: "MUN", away: "AVL", hs: 4, as: 4, venue: "Old Trafford", att: 74149, goals: [ { p: "Alysson", t: "AVL", min: "1" }, { p: "Nicolas Jackson", t: "AVL", min: "4" }, { p: "Bruno Fernandes", t: "MUN", min: "16", pen: true }, { p: "Youri Tielemans", t: "MUN", min: "44" }, { p: "John McGinn", t: "AVL", min: "48", pen: true }, { p: "Leon Goretzka", t: "AVL", min: "53" }, { p: "Joshua Zirkzee", t: "MUN", min: "90+2" }, { p: "Patrick Dorgu", t: "MUN", min: "90+6" } ] },
 ];
 var FIXTURES = [
-  { gw: 10, kickoff: "2026-11-08T16:30:00Z", home: "MUN", away: "AVL", venue: "Old Trafford", live: true, hs: 1, as: 2, clock: "28'00" },
   { gw: 11, kickoff: "2026-11-21T12:30:00Z", home: "MCI", away: "FUL", venue: "Etihad Stadium" },
   { gw: 11, kickoff: "2026-11-21T15:00:00Z", home: "AVL", away: "SUN", venue: "Villa Park" },
   { gw: 11, kickoff: "2026-11-21T15:00:00Z", home: "BOU", away: "NFO", venue: "Vitality Stadium" },
