@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-09 05:03 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-09 05:03", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-10 02:41 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-10 02:41", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -97,9 +97,9 @@ var RESULTS = [
   { gw: 10, kickoff: "2026-11-07T15:00:00Z", home: "FUL", away: "NEW", hs: 1, as: 1, venue: "Craven Cottage", att: 27367, goals: [ { p: "Jacob Murphy", t: "NEW", min: "80" }, { p: "Rodrigo Muniz", t: "FUL", min: "83" } ] },
   { gw: 10, kickoff: "2026-11-07T17:30:00Z", home: "NFO", away: "MCI", hs: 3, as: 1, venue: "The City Ground", att: 30762, goals: [ { p: "Jair Cunha", t: "NFO", min: "6" }, { p: "Liam Delap", t: "NFO", min: "18" }, { p: "Rayan Cherki", t: "MCI", min: "52" }, { p: "Liam Delap", t: "NFO", min: "73" } ] },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "BHA", away: "BRE", hs: 2, as: 0, venue: "American Express Stadium", att: 31629, goals: [ { p: "Diego Gómez", t: "BHA", min: "15" }, { p: "Pascal Groß", t: "BHA", min: "42", pen: true } ] },
-  { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "CRY", away: "LIV", hs: 1, as: 3, venue: "Selhurst Park", att: null, goals: [ { p: "Alexis Mac Allister", t: "LIV", min: "40" }, { p: "Florian Wirtz", t: "LIV", min: "54" }, { p: "Alexander Isak", t: "LIV", min: "89" }, { p: "Eddie Nketiah", t: "CRY", min: "90+5", pen: true } ] },
+  { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "CRY", away: "LIV", hs: 1, as: 3, venue: "Selhurst Park", att: 25176, goals: [ { p: "Alexis Mac Allister", t: "LIV", min: "40" }, { p: "Florian Wirtz", t: "LIV", min: "54" }, { p: "Alexander Isak", t: "LIV", min: "89" }, { p: "Eddie Nketiah", t: "CRY", min: "90+5", pen: true } ] },
   { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "IPS", away: "BOU", hs: 1, as: 2, venue: "Portman Road", att: 29396, goals: [ { p: "Evanilson", t: "BOU", min: "5" }, { p: "Leif Davis", t: "IPS", min: "46", og: true }, { p: "Jack Clarke", t: "IPS", min: "73", pen: true } ] },
-  { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "SUN", away: "CHE", hs: 1, as: 0, venue: "Stadium of Light", att: null, goals: [ { p: "Enzo Le Fée", t: "SUN", min: "36", pen: true } ] },
+  { gw: 10, kickoff: "2026-11-08T14:00:00Z", home: "SUN", away: "CHE", hs: 1, as: 0, venue: "Stadium of Light", att: 46388, goals: [ { p: "Enzo Le Fée", t: "SUN", min: "36", pen: true } ] },
   { gw: 10, kickoff: "2026-11-08T16:30:00Z", home: "MUN", away: "AVL", hs: 4, as: 4, venue: "Old Trafford", att: 74149, goals: [ { p: "Alysson", t: "AVL", min: "1" }, { p: "Nicolas Jackson", t: "AVL", min: "4" }, { p: "Bruno Fernandes", t: "MUN", min: "16", pen: true }, { p: "Youri Tielemans", t: "MUN", min: "44" }, { p: "John McGinn", t: "AVL", min: "48", pen: true }, { p: "Leon Goretzka", t: "AVL", min: "53" }, { p: "Joshua Zirkzee", t: "MUN", min: "90+2" }, { p: "Patrick Dorgu", t: "MUN", min: "90+6" } ] },
 ];
 var FIXTURES = [
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "8nsgWxR8ZOo", title: "曼聯4:4阿士東維拉/ 曼市打吡下季英冠見？-文傑講波經09/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-09T14:08:49Z" },
   { id: "ygfwJQEEXUo", title: "阿仙奴 vs 侯城-傑出阿仙奴Youtube Live--聲音直播球迷交流 07/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-07T17:51:44Z" },
   { id: "Xm2MQtEf_fU", title: "C 7國家隊謝幕-文傑講波經06/11/26 #廣東話 #足球評論 #袁文傑 # C朗", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-06T13:25:25Z" },
   { id: "npoFn7hIhbg", title: "西乙前鋒陣亡事件 / 其他陣亡事件 / 不是殺人犯-文傑講波經04/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-04T13:46:39Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T19:03:47Z" },
   { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T18:31:07Z" },
   { id: "Ukb3sxOhxjU", title: "白禮頓.炙手可熱.瘋狂球隊.瘋狂數據-文傑講波經 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T09:45:56Z" },
-  { id: "7_YgyIfGCro", title: "歐戰風雲26/27 -科木4:1曼聯-24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-23T20:02:58Z" },
 ];
 var ASSISTS = [
   { n: "Declan Rice", t: "ARS", v: 5 },
