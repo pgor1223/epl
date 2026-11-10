@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-10 02:41 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-10 02:41", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-11 01:40 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-11 01:40", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,7 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "JwcQvL2Y558", title: "18分奇跡逆轉奪冠/ 成都蓉城絕望崩潰/ 大連足球等了21年-文傑講波經 10/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-10T13:17:45Z" },
   { id: "8nsgWxR8ZOo", title: "曼聯4:4阿士東維拉/ 曼市打吡下季英冠見？-文傑講波經09/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-09T14:08:49Z" },
   { id: "ygfwJQEEXUo", title: "阿仙奴 vs 侯城-傑出阿仙奴Youtube Live--聲音直播球迷交流 07/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-07T17:51:44Z" },
   { id: "Xm2MQtEf_fU", title: "C 7國家隊謝幕-文傑講波經06/11/26 #廣東話 #足球評論 #袁文傑 # C朗", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-06T13:25:25Z" },
@@ -396,7 +397,6 @@ var VIDEOS = [
   { id: "9-Ti44hhTT4", title: "如何叫曼聯參考阿仙奴之道-文傑講波經25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-25T11:45:40Z" },
   { id: "w3F5PYvsxEk", title: "(本季每次做熱刺直播都......)車路士 vs 熱刺-文傑講波經Youtube Live--聲音直播球迷交流 25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T19:03:47Z" },
   { id: "1jdZpnNaELk", title: "阿仙奴 vs 愛華頓-傑出阿仙奴Youtube Live--聲音直播球迷交流 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T18:31:07Z" },
-  { id: "Ukb3sxOhxjU", title: "白禮頓.炙手可熱.瘋狂球隊.瘋狂數據-文傑講波經 24/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-24T09:45:56Z" },
 ];
 var ASSISTS = [
   { n: "Declan Rice", t: "ARS", v: 5 },
