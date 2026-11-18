@@ -1,5 +1,5 @@
-/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-15 00:33 (HKT) 產生。 */
-var LIVE = { updated: "2026-11-15 00:33", season: 841 };
+/* 自動產生檔案，請勿手動編輯。由 tools/update-epl.ps1 於 2026-11-19 05:19 (HKT) 產生。 */
+var LIVE = { updated: "2026-11-19 05:19", season: 841 };
 var RESULTS = [
   { gw: 1, kickoff: "2026-08-21T19:00:00Z", home: "ARS", away: "COV", hs: 3, as: 0, venue: "Emirates Stadium", att: 60098, goals: [ { p: "Kai Havertz", t: "ARS", min: "15" }, { p: "Bukayo Saka", t: "ARS", min: "23" }, { p: "Martin Ødegaard", t: "ARS", min: "49" } ] },
   { gw: 1, kickoff: "2026-08-22T11:30:00Z", home: "HUL", away: "MUN", hs: 2, as: 0, venue: "The MKM Stadium", att: 24470, goals: [ { p: "Semi Ajayi", t: "HUL", min: "17" }, { p: "Nobel Mendy", t: "HUL", min: "38" } ] },
@@ -385,6 +385,9 @@ var FIXTURES = [
   { gw: 38, kickoff: "2027-05-30T15:00:00Z", home: "SUN", away: "MCI", venue: "Stadium of Light" },
 ];
 var VIDEOS = [
+  { id: "zyVFOgetRaI", title: "阿仙奴數據統計有隱憂？-傑出阿仙奴18/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-18T17:56:52Z" },
+  { id: "Bg6BEuXOcNo", title: "罪與罰-英超董事被114反咬，需要受到保護-文傑講波經18/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-18T16:12:15Z" },
+  { id: "eapUR6K3jSE", title: "曼聯沉淪記EP……-拉爵計劃沉沒 / B費續唔續？-￼文傑講波經18/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-18T15:24:51Z" },
   { id: "rEdIhKSXb5w", title: "曼聯沉淪記EP07-普捷天奴拯救曼聯不再沉淪 / 抑或是又再一次沉淪？ / 還肥普心願 -文傑講波經 14/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-14T13:17:56Z" },
   { id: "u6kK7IVqKDc", title: "世界級中場變奏 /一年時間理解阿迪達-傑出阿仙奴11/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-11T13:33:24Z" },
   { id: "JwcQvL2Y558", title: "18分奇跡逆轉奪冠/ 成都蓉城絕望崩潰/ 大連足球等了21年-文傑講波經 10/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-10T13:17:45Z" },
@@ -394,9 +397,6 @@ var VIDEOS = [
   { id: "npoFn7hIhbg", title: "西乙前鋒陣亡事件 / 其他陣亡事件 / 不是殺人犯-文傑講波經04/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-04T13:46:39Z" },
   { id: "-YcjU0GUvuk", title: "利物浦0:1阿仙奴 / 阿仙奴已打下阿迪達烙印/ 利物浦～般尼茅夫化-傑出阿仙奴&文傑講波經 02/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-02T15:45:26Z" },
   { id: "FEA_MLwGQcQ", title: "利物浦 vs 阿仙奴-傑出阿仙奴Youtube Live--聲音直播球迷交流 02/11/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-11-01T20:54:27Z" },
-  { id: "H96XfEea1Ys", title: "車路士 vs 曼聯-文傑講波經Youtube Live--聲音直播球迷交流 31/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-31T15:50:01Z" },
-  { id: "HkjqloWWd8c", title: "勵志Harry Kane，實至名歸！-文傑講波經27/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-27T10:32:34Z" },
-  { id: "9-Ti44hhTT4", title: "如何叫曼聯參考阿仙奴之道-文傑講波經25/10/26", channel: "袁文傑Andrew Yuen", label: "廣東話", published: "2026-10-25T11:45:40Z" },
 ];
 var ASSISTS = [
   { n: "Declan Rice", t: "ARS", v: 5 },
